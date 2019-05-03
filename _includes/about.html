@@ -4,7 +4,21 @@
 
         <h2>About me</h2>
 
-        <p>BlaBlaBla BlaBlaBla BlaBlaBla BlaBlaBla BlaBlaBla BlaBlaBla BlaBlaBla BlaBlaBla</p>
+        <p>
+            MasteringLync is the home of the SkypeValidator Website, The Validator Teams App and general information and community blog.
+        </p>
+        <p>
+            SkypeValidator can be found at https://skypevalidator.com and was created for the planning, documenting and validation of your Skype and Lync deployments.
+        </p>
+        <p>  
+            The Validator Teams App is a soon to be released (we hope) application that brings the power of the SkypeValidator SDK to Microsoft Teams.
+        </p>
+        <p> 
+            The blog is dedicated to Skype for Business 2019/2015 , Microsoft Lync Server 2013/2010 and occasionally Exchange 2013/2010.  Our goal is to try to cover everything from the basics to deep dive into the guts of Lync.  All content is written by Microsoft Certified Masters and since we know we aren’t the only blog on the planet, we will make sure to link to all of our MCM friends.
+        </p>
+        <p> 
+            All apps and blog are maintained by Richard Brynteson, Teams/Skype/Lync MVP, Microsoft Certified Solutions Master: Lync Server 2013, Microsoft Certified Master: Lync Server 2010 and Senior Systems Architect at Time2Market.
+        </p>
 
         <h2>Contact</h2>
 
@@ -12,65 +26,10 @@
             <li>Email：<a href="mailto:{{ site.email }}" target="_top">{{ site.email }}</a></li>
             <li>GitHub：<a href="{{ site.github_url }}">{{ site.github_url }}</a></li>
         </ul>
-
-        <h2>Skill Keywords</h2>
-
-        {% if site.skill_software_keywords %}
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">Software Engineer Keywords</h3>
-            </div>
-            <div class="panel-body">
-                {% for keyword in site.skill_software_keywords %}
-                <button class="btn btn-default" type="button">{{ keyword }}</button>
-                {% endfor %}
-            </div>
-        </div>
-        {% endif %}
-
-        {% if site.skill_j2ee_keywords %}
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">J2EE Developer Keywords</h3>
-            </div>
-            <div class="panel-body">
-                {% for keyword in site.skill_j2ee_keywords %}
-                <button class="btn btn-default" type="button">{{ keyword }}</button>
-                {% endfor %}
-            </div>
-        </div>
-        {% endif %}
-
-        {% if site.skill_mobile_app_keywords %}
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">Mobile Developer Keywords</h3>
-            </div>
-            <div class="panel-body">
-                {% for keyword in site.skill_mobile_app_keywords %}
-                <button class="btn btn-default" type="button">{{ keyword }}</button>
-                {% endfor %}
-            </div>
-        </div>
-        {% endif %}
-
-        {% if site.skill_web_keywords %}
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h3 class="panel-title">Web Developer Keywords</h3>
-            </div>
-            <div class="panel-body">
-                {% for keyword in site.skill_web_keywords %}
-                <button class="btn btn-default" type="button">{{ keyword }}</button>
-                {% endfor %}
-            </div>
-        </div>
-        {% endif %}
-
     </div>
 
     <div class="col-md-4">
-        {% include sidebar-popular-repo.html %}
+        {% include sidebar-post-tag.html %}
     </div>
 
 </div>

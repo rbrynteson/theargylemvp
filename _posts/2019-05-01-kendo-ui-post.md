@@ -24,15 +24,17 @@ nkweb_Custom_Code:
   - ""
 image: https://masteringlync.com/wp-content/uploads/sites/2/2018/11/code2.png
 categories:
-  - Uncategorized
+  - Development
 ---
+## A Little Background
+
 Many years ago when I started my journey into the development world I was all about VB. Somewhere along that journey, I jumped over to C# because it made sense and all of my websites quickly transitioned to ASP.NET Web Forms. In order to make things look pretty I found UI for ASP.NET Ajax and many websites were born.
 
 Over the past year I&#8217;ve been on a mission to move from the server to the client. Take advantage of newer technologies and features but one tool never left me in Telerik (now Progress). So although I&#8217;ve played with ReactJS, Angular and others, I keep coming back to Telerik and now we move to KendoUI for JQuery. Great libraries, ability to quickly create content without all of the crazy that goes along with React (for now). Thought for my normal readers it would be good to know why I&#8217;m posting about this because it doesn&#8217;t seem to make any sense on this blog.
 
 So, what is the ask and the need. I really wanted to start using Kendo UI for my new SfB/Teams Portal I&#8217;m writing. And although I really love the new world of lots of JavaScript and objects there is something great about having externally referenced files for content. Templates. You know, those things we used since the dawn of time.
 
-**Kendo UI with External Templates**﻿
+## Kendo UI with External Templates
 
 The Telerik team has created a great starting point with their post about [External Template Loading](https://docs.telerik.com/kendo-ui/framework/templates/load-remote). And although at first glance you would think that is enough it really isn&#8217;t for a handful of reasons. So lets start with the finished code and explain what is happening in each item:
 

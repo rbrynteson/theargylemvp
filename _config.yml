@@ -8,9 +8,9 @@
 
 # Site settings
 title: TheArgyleMVP
-name: Richard Brynteson
+name: TheArgyleMVP
 email: richard@masteringlync.com
-location: Minneapolis
+location: Minneapolis, MN
 company: T2M
 company_url: https://t2mdev.com
 github_url: https://github.com/rbrynteson
@@ -22,7 +22,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rbrynteson
 
-#repository: github_username/github_username.github.io # ex. DONGChuan/DONGChuan.github.io
+repository: rbrynteson/rbrynteson.github.io
 url: http://localhost:4000
 
 ## Gem
@@ -32,6 +32,7 @@ gems:
   - rouge
   - kramdown
   - jekyll-github-metadata
+  - jekyll-octicons
 
 # Build settings
 markdown: kramdown
@@ -46,21 +47,17 @@ kramdown:
   enable_coderay: true
  
  # Disque
-disque: my_disque_settings
+disque: theargylemvp.disqus.com
 
 # Pagination
 paginate: 10
 paginate_path: 'page:num'
 
-# Navigation. If you do not like these modules, just remove them :D
+# Navigation. If you do not like these modules, just remove them
 navs:
   -
     href: /
     label: Home
-
-  -
-    href: /open-source
-    label: Open-Source
 
   -
     href: /blog
@@ -69,6 +66,10 @@ navs:
   -
     href: /bookmark
     label: Bookmark
+
+  -
+    href: /projects
+    label: Projects
 
   -
     href: /about
@@ -81,14 +82,7 @@ side_bar_repo_limit: 5 # Number of repos to show
 analytics :
   provider : google
   google :
-      tracking_id : 'tracking_id'  # ex. UA-72165600-X
-
-
-# For about.html. Fell free to create your own!
-skill_software_keywords: 
-skill_j2ee_keywords: 
-skill_web_keywords: 
-skill_mobile_app_keywords: 
+      tracking_id : 'UA-19978686-5'  # ex. UA-72165600-X
  
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
