@@ -26,6 +26,9 @@ image: https://masteringlync.com/wp-content/uploads/sites/2/2018/11/code2.png
 categories:
   - Development
 ---
+
+Sometimes you need just a little bit more information than what is available on the web.
+
 ## A Little Background
 
 Many years ago when I started my journey into the development world I was all about VB. Somewhere along that journey, I jumped over to C# because it made sense and all of my websites quickly transitioned to ASP.NET Web Forms. In order to make things look pretty I found UI for ASP.NET Ajax and many websites were born.
