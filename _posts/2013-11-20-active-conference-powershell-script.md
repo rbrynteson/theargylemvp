@@ -1,0 +1,20 @@
+---
+id: 555
+title: Active Conference PowerShell Script
+date: 2013-11-20T17:23:00+00:00
+author: admin@gcmtotalsolutions.com
+layout: post
+guid: http://masteringlync.com/?p=555
+permalink: /2013/11/20/active-conference-powershell-script/
+st_layout_box:
+  - right
+categories:
+  - Lync Server 2013
+---
+Yesterday was a busy day with e-mails and other tweets from my PowerShell script that I posted but got a lot of follow-up questions.  The number one question, does this work with Lync Server 2010?
+
+Kinda. If you are willing to just run the SQL command directly on the server.  Lync Server doesn&#8217;t use PowerShell 3.0 and is missing some of the SQL commands to be able to run it directly from the PowerShell.  So if you run this SQL Command on your back-end SQL Database:
+
+_<span style="color: #0000ff;font-size: small"><span style="color: #0000ff;font-size: small">SELECT</span></span> <span style="font-size: small">ActiveConference</span><span style="color: #808080;font-size: small"><span style="color: #808080;font-size: small">.</span></span><span style="font-size: small">ConfId </span><span style="color: #0000ff;font-size: small"><span style="color: #0000ff;font-size: small">AS</span></span><span style="color: #ff0000;font-size: small"><span style="color: #ff0000;font-size: small">&#8216;Conference ID&#8217;</span></span><span style="color: #808080;font-size: small"><span style="color: #808080;font-size: small">,</span></span> <span style="font-size: small">ActiveConference</span><span style="color: #808080;font-size: small"><span style="color: #808080;font-size: small">.</span></span><span style="font-size: small">Locked</span><span style="color: #808080;font-size: small"><span style="color: #808080;font-size: small">,</span></span> <span style="font-size: small">Participant</span><span style="color: #808080;font-size: small"><span style="color: #808080;font-size: small">.</span></span><span style="font-size: small">UserAtHost </span><span style="color: #0000ff;font-size: small"><span style="color: #0000ff;font-size: small">AS</span></span><span style="color: #ff0000;font-size: small"><span style="color: #ff0000;font-size: small">&#8216;Participant&#8217;</span></span><span style="color: #808080;font-size: small"><span style="color: #808080;font-size: small">,</span></span> <span style="font-size: small">Participant</span><span style="color: #808080;font-size: small"><span style="color: #808080;font-size: small">.</span></span><span style="font-size: small">JoinTime</span><span style="color: #808080;font-size: small"><span style="color: #808080;font-size: small">,</span></span> <span style="font-size: small">Participant</span><span style="color: #808080;font-size: small"><span style="color: #808080;font-size: small">.</span></span><span style="font-size: small">EnterpriseId </span><span style="color: #0000ff;font-size: small"><span style="color: #0000ff;font-size: small">FROM</span></span> <span style="font-size: small">ActiveConference </span><span style="color: #808080;font-size: small"><span style="color: #808080;font-size: small">INNER</span></span><span style="color: #808080;font-size: small"><span style="color: #808080;font-size: small">JOIN</span></span> <span style="font-size: small">Participant </span><span style="color: #0000ff;font-size: small"><span style="color: #0000ff;font-size: small">ON</span></span> <span style="font-size: small">ActiveConference</span><span style="color: #808080;font-size: small"><span style="color: #808080;font-size: small">.</span></span><span style="font-size: small">ConfId </span><span style="color: #808080;font-size: small"><span style="color: #808080;font-size: small">=</span></span> <span style="font-size: small">Participant</span><span style="color: #808080;font-size: small"><span style="color: #808080;font-size: small">.</span></span><span style="font-size: small">ConfId</span>_
+
+And for Lync 2013 you can refer to the PowerShell Script (<http://masteringlync.com/2013/11/19/list-all-active-conferences-via-powershell/>).
