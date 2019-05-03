@@ -13,7 +13,7 @@ It was time to follow the crowd!  Everyone seemed to be moving away from WordPre
 
 ## Options
 
-There are so many options out there.  If you want a good look at another journey check out [Michael](https://realtimeuc.com/2018/05/wordpress-static-site-azure/index.html)'s journey from WordPress to Azure.
+There are so many options out there.  If you want a good look at another journey check out [Michael](https://realtimeuc.com/2018/05/wordpress-static-site-azure/index.html) journey from WordPress to Azure.
 
 In my case, I knew that I wanted to end my journey in GitHub Pages.  Why?  Because it's free to use, includes https support, uses mark down, easy to deploy, etc.  Basically it was an absolute no brainer for me.  So that meant for me, the choice was going to be [Jekyll](https://jekyllrb.com/) for the actual website, etc.  So how did we get from WordPress to here.
 
@@ -23,7 +23,7 @@ I'll be honest, this was way easier than I thought it was going to be.  There ar
 
 1. Create a GitHub Repo.  I went ahead and went public because why not.
 2. Installed Visual Studio Code and GitHub Desktop.  Both are going to be needed.
-3. Export your data from WordPress.  I used [Girliemac](https://girliemac.com/blog/2013/12/27/wordpress-to-jekyll/)'s article as an aboslute starting point.
+3. Export your data from WordPress.  I used [Girliemac](https://girliemac.com/blog/2013/12/27/wordpress-to-jekyll/) article as an aboslute starting point.
 - Exported comments to Disqus
 - Installed Jekyll
 - Imported WordPress Contents
