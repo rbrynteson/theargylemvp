@@ -10,7 +10,7 @@
 title: TheArgyleMVP
 name: Richard Brynteson
 email: richard@masteringlync.com
-location: Minneapolis, MN
+location: Minneapolis
 company: T2M
 company_url: https://t2mdev.com
 github_url: https://github.com/rbrynteson
@@ -21,7 +21,9 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rbrynteson
-favicon: favicon.png
+#repository: github_username/github_username.github.io # ex. DONGChuan/DONGChuan.github.io
+
+url: http://localhost:4000
 
 ## Gem
 gems:
@@ -39,9 +41,9 @@ excerpt_separator: "\n\n"
 plugins:
   - jekyll-feed
 
- kramdown:
- input: GFM
- enable_coderay: true
+kramdown:
+  input: GFM
+  enable_coderay: true
  
  # Disque
 disque: my_disque_settings
