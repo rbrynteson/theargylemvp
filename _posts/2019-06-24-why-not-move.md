@@ -1,5 +1,5 @@
 ---
-title: Migrate from WordPress to GitHub Pages
+title: Why Haven't You Moved To Teams
 date: 2019-06-24T14:37:39+00:00
 author: Richard Brynteson
 layout: post
