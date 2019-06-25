@@ -28,8 +28,6 @@ Recently I posed the question to Twitter as I received an internal Microsoft sur
 
 This is the hardest group for Microsoft to handle.  Customers who pick these items are more than likely adverse to the cloud or it simply doesn't make sense.  For example, I know LOTS of organizations that either just finished or are still in their migration to SfB from a legacy phone system.  To ask those customers to make another telephony change this fast is asking way too much.
 
-At CommsvNext I recall hearing a MS employee say that they believe phone systems are replaced every 3 to 5 years.  I also did a spit-take across the table.  Organizations are coming from a world of 20 to 30 years with a PBX.  SfB was an adjustment because it was software that we continued to updated with new features.  To say an organization is on a 3 to 5 year cycle for their PBX is pretty funny.
-
 ### Group 2
 
 - Still needs on-premises sbc/hardware for analog support
@@ -38,7 +36,7 @@ At CommsvNext I recall hearing a MS employee say that they believe phone systems
 - Lack of survivability
 - Teams client lacks survivability
 
-In this group I see the general trend to be hardware related.  For example, if I'm an organization that requires paging this becomes a serious issue.  Of the 40+ SfB deployments I see on a regular basis, I would guess that 30 to 35 of them have some sort of device to accomplish paging.  This could everything from an old SNOM devices or other native endpoints or devices that SIP register to their SBC.  Regardless, in both of these cases, Teams doesn't provide a like-for-like model or requires the existing SBC to remain on premises which devalues the Teams Voice move.
+In this group I see the general trend to be hardware related.  For example, if I'm an organization that requires paging this becomes a serious issue.  Of the 40+ SfB deployments I see on a regular basis, I would guess that 30 to 35 of them have some sort of device to accomplish paging.  This could everything from an old SNOM devices or other native endpoints or devices that SIP register to their SBC.  Regardless, in both of these cases, Teams doesn't provide a like-for-like model or requires the existing SBC to remain on premises which devalues the Teams Voice move.  This could be solved at the device level or 3rd party vendors like Polycom and AudioCodes could fill the space.
 
 The biggest item in this group is survivability.  Teams has suffered a handful of timely voice outages and the client doesn't survive a single outage well.  Some of this could be offset if the Teams client had some sort of survivability against an on-premises SBC used for Direct Routing.  If this was possible, it would be a massive win and provide all sorts of possibilities into the future.
 
@@ -85,7 +83,7 @@ Also in this group is what i would consider costs/option issues.  I hear from cu
 - Expectation of 3 replacement cycle of devices is unrealistic
 - Moving Target (features, options, modes)
 
-Honestly, we are into a catch all now.  The biggest grip I hear from customers is around devices.  Either they have already purchased phones and don't want to buy them again or the expectation that IP Phones are now a commodity product doesn't sit well with customers.  If I need to purchase 20,000 devices and they have a shelf-life of three years, I'm not going to buy that product.  This could easily be taken care of if Microsoft posted a guideline or supportability guidelines around their phones.  Microsoft Teams doesn't have a single reference in the Microsoft Product life-cycle website.  That is weird and for a corporate customer that can be a big deal.
+Honestly, we are into a catch all now.  The biggest gripe I hear from customers is around devices.  Either they have already purchased phones and don't want to buy them again or the expectation that IP Phones are now a commodity product doesn't sit well with customers.  If I need to purchase 20,000 devices and they have a shelf-life of three years, I'm not going to buy that product.  This could easily be taken care of if Microsoft posted a guideline or supportability guidelines around their phones.  Microsoft Teams doesn't have a single reference in the Microsoft Product life-cycle website.  That is weird and for a corporate customer that can be a big deal.
 
 Lastly, there is the pace of Teams.  I hear this often.  It's great that features are coming all the time but they always launch with them enabled.  We talk about Shadow IT and I understand if a feature is disabled it might take a long time for an organization to adopt it.  But I think there is a notion of Change Fatigue that users suffer from as well.  The ring method is already confusing but maybe Microsoft creates a Ring 5 where features are delayed 1 to 2 months from general release.
 
@@ -96,3 +94,5 @@ Lastly, there is the pace of Teams.  I hear this often.  It's great that feature
 OK, this one could be an easy win.  And honestly, I've never understood why as a Business Premium users can't use Phone Calling.  Of all of the markets that Microsoft could easily take advantage of it's here.  Why not compete with Ring Central and others in the less than 300 user market.
 
 Hopefully these make sense and of course feel free to ask questions below.  Teams is amazing - I love it - but SfB isn't going to go away for a lot of organizations due to the handful of items in this list.
+
+None of this is to say I believe Teams is fatally flawed.  All this list represents is what customers have told me and was shared via Twitter.  I think Microsoft can overcome a lot of these items on this list and I can't wait to see how they accomplish it.
