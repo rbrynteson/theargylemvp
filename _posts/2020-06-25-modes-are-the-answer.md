@@ -20,7 +20,7 @@ But if you are an E5 customer and bandwidth isn't your concern, than Meetings Fi
 
 The [docs site](https://docs.microsoft.com/en-us/microsoftteams/upgrade-and-coexistence-of-skypeforbusiness-and-teams) has a great article on the different modes of Teams.  Although they have been around for a while, they were recently exposed in the Modern Portal and enforcement of them only started in March.  Of particular interest is the Skype for Business with Teams with Meetings and Collaboration.
 
-[alt text](https://theargylemvp.com/assets/images/modes-image-1.png "Modes")
+![alt text](https://theargylemvp.com/assets/images/modes-image-1.png "Modes")
 
 ## What Is It
 
