@@ -30,7 +30,8 @@ Once Charles Proxy is setup you can find "useraggregatesettings" under teams.mic
 
 Obviously, we have a problem at this point in time.  There are two options:
 
-1. Open PowerShell and connect to SfBOnline and run get-csuseronline user@domain.com | grant-csteamsmessagingpolicy -policyname $null
-2. Open a ticket with Microsoft and they can do it.
+Option #1: Open PowerShell and connect to SfBOnline and run get-csuseronline user@domain.com | grant-csteamsmessagingpolicy -policyname $null
 
-By running step #1, it forces the policy change to run through the provisioning pipeline again and will update all of the different policy tiers.  This can take up to 24 hours for the change to be visible.  But once it's done, the user will get their chat back.
+Option #2: Open a ticket with Microsoft and they can do it.
+
+By running step #1, it forces the policy change to run through the provisioning pipeline again and will update all of the different policy tiers.  This can take up to 24 hours for the change to be visible.  But once it is done, the user will get their chat back.
