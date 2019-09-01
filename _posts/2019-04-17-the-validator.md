@@ -33,7 +33,7 @@ A first step in the long journey of bringing all of the best parts of the Skype 
 
 Our first version will bring the Validator Checks into the Teams. In the below screen shot we can see the port check tool being used check if microsoft.com is open on port 443.
 
-<img src="https://masteringlync.com/wp-content/uploads/2019/04/ValidatorScreenShot1.png" alt="" class="wp-image-1770" sizes="(max-width: 800px) 100vw, 800px" />
+<img src="https://masteringlync.com/wp-content/uploads/2019/04/ValidatorScreenShot1.png" alt="" class="wp-image-1770" width="650" />
 
 On the left you choose the Test Type and on the right you get the results.
 
