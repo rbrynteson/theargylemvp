@@ -22,7 +22,7 @@ nkweb_Use_Custom:
   - 'false'
 nkweb_Custom_Code:
   - ""
-image: https://masteringlync.com/wp-content/uploads/sites/2/2017/12/Microsoft-Teams.jpg
+image: https://masteringlync.com/wp-content/uploads/2017/12/Microsoft-Teams.jpg
 categories:
   - Microsoft Teams
   - Skype for Business
@@ -42,21 +42,21 @@ Just hit refresh to get the latest updates!
 
 We are chatting about migrating the internal Microsoft company. MS did it all in 4 months. 
 
-10:26 AM &#8211; Now we are showing off proximity join for meetings. This is pretty awesome. Basically, you walk into a room and it will auto join. Also, we are getting a first look at Microsoft Whiteboard.<figure class="wp-block-image">
+10:26 AM &#8211; Now we are showing off proximity join for meetings. This is pretty awesome. Basically, you walk into a room and it will auto join. Also, we are getting a first look at Microsoft Whiteboard.
 
-<img src="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2019/03/tweeten-1553006069241.jpg?fit=800%2C600&ssl=1" alt="" class="wp-image-1756" srcset="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2019/03/tweeten-1553006069241.jpg?w=2048&ssl=1 2048w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2019/03/tweeten-1553006069241.jpg?resize=300%2C225&ssl=1 300w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2019/03/tweeten-1553006069241.jpg?resize=768%2C576&ssl=1 768w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2019/03/tweeten-1553006069241.jpg?resize=1024%2C768&ssl=1 1024w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2019/03/tweeten-1553006069241.jpg?w=1600&ssl=1 1600w" sizes="(max-width: 800px) 100vw, 800px" /> </figure> 
+<img src="https://masteringlync.com/wp-content/uploads/2019/03/tweeten-1553006069241.jpg" alt="" class="wp-image-1756" width="650" />
 
-Touch screens are coming! Also, content capture camera support is coming! This is crazy! This includes the ability to see through the person when they are standing in front of the white board.<figure class="wp-block-image">
+Touch screens are coming! Also, content capture camera support is coming! This is crazy! This includes the ability to see through the person when they are standing in front of the white board.
 
-<img src="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2019/03/IMG_20190319_072937.jpg?fit=800%2C600&ssl=1" alt="" class="wp-image-1752" srcset="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2019/03/IMG_20190319_072937.jpg?w=4160&ssl=1 4160w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2019/03/IMG_20190319_072937.jpg?resize=300%2C225&ssl=1 300w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2019/03/IMG_20190319_072937.jpg?resize=768%2C576&ssl=1 768w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2019/03/IMG_20190319_072937.jpg?resize=1024%2C768&ssl=1 1024w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2019/03/IMG_20190319_072937.jpg?w=1600&ssl=1 1600w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2019/03/IMG_20190319_072937.jpg?w=2400&ssl=1 2400w" sizes="(max-width: 800px) 100vw, 800px" /> </figure> 
+<img src="https://masteringlync.com/wp-content/uploads/2019/03/IMG_20190319_072937.jpg" alt="" class="wp-image-1752" width="650" /> 
 
 10:25 AM &#8211; Showing off the ability to join meeting muted. Also, 4 to 9 person video streams.<figure class="wp-block-image">
 
-<img src="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2019/03/IMG_20190319_072534.jpg?fit=800%2C600&ssl=1" alt="" class="wp-image-1751" srcset="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2019/03/IMG_20190319_072534.jpg?w=4160&ssl=1 4160w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2019/03/IMG_20190319_072534.jpg?resize=300%2C225&ssl=1 300w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2019/03/IMG_20190319_072534.jpg?resize=768%2C576&ssl=1 768w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2019/03/IMG_20190319_072534.jpg?resize=1024%2C768&ssl=1 1024w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2019/03/IMG_20190319_072534.jpg?w=1600&ssl=1 1600w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2019/03/IMG_20190319_072534.jpg?w=2400&ssl=1 2400w" sizes="(max-width: 800px) 100vw, 800px" /> </figure> 
+<img src="https://masteringlync.com/wp-content/uploads/2019/03/IMG_20190319_072534.jpg?fit=800%2C600&ssl=1" alt="" class="wp-image-1751" width="650" /> </figure> 
 
 10:22 AM &#8211; A new real time captions meeting. This is pretty awesome! You can also do fancy stuff like swapping backgrounds to pictures. This is in addition to the ability to blur backgrounds.<figure class="wp-block-image">
 
-<img src="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2019/03/IMG_20190319_0723571.jpg?fit=800%2C600&ssl=1" alt="" class="wp-image-1750" srcset="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2019/03/IMG_20190319_0723571.jpg?w=4160&ssl=1 4160w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2019/03/IMG_20190319_0723571.jpg?resize=300%2C225&ssl=1 300w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2019/03/IMG_20190319_0723571.jpg?resize=768%2C576&ssl=1 768w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2019/03/IMG_20190319_0723571.jpg?resize=1024%2C768&ssl=1 1024w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2019/03/IMG_20190319_0723571.jpg?w=1600&ssl=1 1600w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2019/03/IMG_20190319_0723571.jpg?w=2400&ssl=1 2400w" sizes="(max-width: 800px) 100vw, 800px" /> </figure> 
+<img src="https://masteringlync.com/wp-content/uploads/2019/03/IMG_20190319_0723571.jpg?fit=800%2C600&ssl=1" alt="" class="wp-image-1750" width="650" /> </figure> 
 
 10:20 AM &#8211; It&#8217;s meeting time. We are going to start with Live Meetings. First demo is showing off real time (or on-demand) transcriptions from one language to another.
 
