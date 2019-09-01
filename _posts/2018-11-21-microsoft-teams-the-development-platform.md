@@ -45,7 +45,7 @@ I&#8217;m not a developer by trade and have kind of fallen into a role where muc
 
 So in the coming months you will see opportunities to play with Validator in Teams.  I will blog my experience with modernizing the application and share how you can take your existing app and make it Teams friendly.  Here is a quick sneak peak of that work:
 
-<img class="alignnone wp-image-1701" src="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/11/Annotation-2018-11-21-110734.png?resize=800%2C166&#038;ssl=1" alt="" width="800" height="166" srcset="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/11/Annotation-2018-11-21-110734.png?w=1017&ssl=1 1017w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/11/Annotation-2018-11-21-110734.png?resize=300%2C62&ssl=1 300w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/11/Annotation-2018-11-21-110734.png?resize=768%2C159&ssl=1 768w" sizes="(max-width: 800px) 100vw, 800px" data-recalc-dims="1" /> 
+<img class="alignnone wp-image-1701" src="https://masteringlync.com/wp-content/uploads/2018/11/Annotation-2018-11-21-110734.png?resize=800%2C166&#038;ssl=1" alt="" width="800" height="166" /> 
 
 **What Else?**
 
