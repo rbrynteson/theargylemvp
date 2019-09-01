@@ -32,11 +32,11 @@ Thankfully the Azure and Identity Team recently released a process by which you 
 
 So what does it look like?  You might have something like this:
 
-<img class="alignnone size-full wp-image-1521" src="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/05/1-2.png?resize=363%2C133&#038;ssl=1" alt="" width="363" height="133" srcset="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/05/1-2.png?w=363&ssl=1 363w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/05/1-2.png?resize=300%2C110&ssl=1 300w" sizes="(max-width: 363px) 100vw, 363px" data-recalc-dims="1" /> 
+<img class="alignnone size-full wp-image-1521" src="https://masteringlync.com/wp-content/uploads/2018/05/1-2.png?resize=363%2C133&#038;ssl=1" alt="" width="363" height="133" /> 
 
 But when you login to &#8220;Da Who (Guest)&#8221; you see nothing.  Long ago, I thought I could &#8220;remove&#8221; this by simply leaving the Team I was invited too.  But instead, I just got a big blank screen.
 
-<img class="alignnone wp-image-1522" src="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/05/2-1.png?resize=600%2C375&#038;ssl=1" alt="" width="600" height="375" srcset="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/05/2-1.png?w=936&ssl=1 936w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/05/2-1.png?resize=300%2C188&ssl=1 300w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/05/2-1.png?resize=768%2C480&ssl=1 768w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /> 
+<img class="alignnone wp-image-1522" src="https://masteringlync.com/wp-content/uploads/2018/05/2-1.png?resize=600%2C375&#038;ssl=1" alt="" width="600" height="375" /> 
 
 Here you can see I&#8217;m in the &#8220;Da Who&#8221; organization but I left the Team I was invited to and now there is absolutely nothing let.  I can&#8217;t Chat, no Teams to chat with, nothing.  It&#8217;s just cluttering up my switcher.
 
@@ -44,19 +44,19 @@ So head over to: https://myapps.microsoft.com/
 
 Once you are logged in you should see something like this:
 
-<img class="alignnone size-full wp-image-1524" src="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/05/3-1.png?resize=337%2C563&#038;ssl=1" alt="" width="337" height="563" srcset="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/05/3-1.png?w=337&ssl=1 337w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/05/3-1.png?resize=180%2C300&ssl=1 180w" sizes="(max-width: 337px) 100vw, 337px" data-recalc-dims="1" /> 
+<img class="alignnone size-full wp-image-1524" src="https://masteringlync.com/wp-content/uploads/2018/05/3-1.png?resize=337%2C563&#038;ssl=1" alt="" width="337" height="563" /> 
 
 Click on the Gear Box and you will see all of the organizations you have access to.  You might need to &#8220;Sign In&#8221; so you can leave.  For example:
 
-<img class="alignnone wp-image-1525" src="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/05/4-1.png?resize=600%2C316&#038;ssl=1" alt="" width="600" height="316" srcset="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/05/4-1.png?w=936&ssl=1 936w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/05/4-1.png?resize=300%2C158&ssl=1 300w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/05/4-1.png?resize=768%2C405&ssl=1 768w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/05/4-1.png?resize=390%2C205&ssl=1 390w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /> 
+<img class="alignnone wp-image-1525" src="https://masteringlync.com/wp-content/uploads/2018/05/4-1.png?resize=600%2C316&#038;ssl=1" alt="" width="600" height="316" /> 
 
 And once signed in it will change to Leave Organization.
 
-<img class="alignnone wp-image-1526" src="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/05/5-2.png?resize=600%2C331&#038;ssl=1" alt="" width="600" height="331" srcset="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/05/5-2.png?w=909&ssl=1 909w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/05/5-2.png?resize=300%2C166&ssl=1 300w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/05/5-2.png?resize=768%2C424&ssl=1 768w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /> 
+<img class="alignnone wp-image-1526" src="https://masteringlync.com/wp-content/uploads/2018/05/5-2.png?resize=600%2C331&#038;ssl=1" alt="" width="600" height="331" /> 
 
 After that, the switcher will be all cleaned up for you.
 
-<img class="alignnone size-full wp-image-1527" src="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/05/6-1.png?resize=348%2C550&#038;ssl=1" alt="" width="348" height="550" srcset="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/05/6-1.png?w=348&ssl=1 348w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/05/6-1.png?resize=190%2C300&ssl=1 190w" sizes="(max-width: 348px) 100vw, 348px" data-recalc-dims="1" /> 
+<img class="alignnone size-full wp-image-1527" src="https://masteringlync.com/wp-content/uploads/2018/05/6-1.png?resize=348%2C550&#038;ssl=1" alt="" width="348" height="550" /> 
 
 And after about 15 minutes, go ahead and log out and exit Microsoft Teams.  It&#8217;s critical that you exit the application.  But when you log back in you will see the organization switcher no longer has that organization anymore.
 

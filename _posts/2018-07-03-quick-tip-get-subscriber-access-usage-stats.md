@@ -56,7 +56,7 @@ So in this script, all you need to do is to update the three variables to the it
 
 The expected output would be:
 
-<img class="alignnone size-full wp-image-1532" src="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/07/Output.png?resize=369%2C167&#038;ssl=1" alt="" width="369" height="167" srcset="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/07/Output.png?w=369&ssl=1 369w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/07/Output.png?resize=300%2C136&ssl=1 300w" sizes="(max-width: 369px) 100vw, 369px" data-recalc-dims="1" /> 
+<img class="alignnone size-full wp-image-1532" src="https://masteringlync.com/wp-content/uploads/2018/07/Output.png?resize=369%2C167&#038;ssl=1" alt="" width="369" height="167" /> 
 
 The output will show you Subscriber Access number of calls separated by PSTN and Client calls into the SA Service.
 
