@@ -28,7 +28,7 @@ categories:
 ---
 Welcome to the new beginning.  Welcome to the new world where Microsoft Teams is your default communication platform.  Of course, that depends on where you are in the journey.  So let&#8217;s look across the Skype for Business and Microsoft Teams stack and see where we are at today.
 
-<img class="alignnone size-full wp-image-1672" src="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/09/OnARoll.png?resize=800%2C418&#038;ssl=1" alt="" width="800" height="418" srcset="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/09/OnARoll.png?w=944&ssl=1 944w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/09/OnARoll.png?resize=300%2C157&ssl=1 300w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/09/OnARoll.png?resize=768%2C401&ssl=1 768w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/09/OnARoll.png?resize=390%2C205&ssl=1 390w" sizes="(max-width: 800px) 100vw, 800px" data-recalc-dims="1" /> 
+<img class="alignnone size-full wp-image-1672" src="https://masteringlync.com/wp-content/uploads/2018/09/OnARoll.png?resize=800%2C418&#038;ssl=1" alt="" width="800" height="418" /> 
 
 **By The Numbers!**
 
@@ -42,7 +42,7 @@ However, the last number is the biggest number.  (It was updated in the later k
 
 We have seen this demo&#8217;ed previously but is now rolling out for everyone to use.  It works seamlessly and is amazing for those with busy work spaces or kids running around.
 
-<img class="alignnone size-full wp-image-1673" src="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/09/Blur.png?resize=551%2C359&#038;ssl=1" alt="" width="551" height="359" srcset="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/09/Blur.png?w=551&ssl=1 551w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/09/Blur.png?resize=300%2C195&ssl=1 300w" sizes="(max-width: 551px) 100vw, 551px" data-recalc-dims="1" /> 
+<img class="alignnone size-full wp-image-1673" src="https://masteringlync.com/wp-content/uploads/2018/09/Blur.png?resize=551%2C359&#038;ssl=1" alt="" width="551" height="359" /> 
 
 <span style="text-decoration: underline">Meeting Recording</span>
 
@@ -105,7 +105,7 @@ So one of the announcements made prior to Ignite is that new organizations comin
 
 But the most important item to know is that Microsoft will start with &#8220;assisted upgrades&#8221;.  This is a fancy term for forced migration.
 
-<img class="alignnone size-full wp-image-1674" src="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/09/UpgradeTime.png?resize=603%2C290&#038;ssl=1" alt="" width="603" height="290" srcset="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/09/UpgradeTime.png?w=603&ssl=1 603w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/09/UpgradeTime.png?resize=300%2C144&ssl=1 300w" sizes="(max-width: 603px) 100vw, 603px" data-recalc-dims="1" /> 
+<img class="alignnone size-full wp-image-1674" src="https://masteringlync.com/wp-content/uploads/2018/09/UpgradeTime.png?resize=603%2C290&#038;ssl=1" alt="" width="603" height="290" /> 
 
 As you can see, this message appears with the Skype & Teams page within the Modern Portal.  This wasn&#8217;t my tenant so I can&#8217;t tell you how to postpone this update if you still need many of the features that are missing from Microsoft Teams today (i.e. Federation, etc.).
 

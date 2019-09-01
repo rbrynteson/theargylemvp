@@ -40,7 +40,7 @@ I wasn&#8217;t there but it certainly sounds like one amazing party after anothe
 
 <a href="https://myignite.techcommunity.microsoft.com/sessions/65542" target="_blank" rel="noopener">BRK3124</a>: How SfB can take advantage of Microsoft Teams Meetings.  The idea of a Meetings First approach isn&#8217;t new.  Actually, if you have read my blog previously you would now all the way back in October 2017 I wrote an article about making <a href="https://masteringlync.com/2017/10/16/skype-for-business-microsoft-teams/" target="_blank" rel="noopener">Teams + Skype for Business work together nicely</a>.  Check out my last paragraph:
 
-<img class="alignnone size-full wp-image-1687" src="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/10/MeetingsFirst.png?resize=768%2C63&#038;ssl=1" alt="" width="768" height="63" srcset="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/10/MeetingsFirst.png?w=768&ssl=1 768w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/10/MeetingsFirst.png?resize=300%2C25&ssl=1 300w" sizes="(max-width: 768px) 100vw, 768px" data-recalc-dims="1" /> 
+<img class="alignnone size-full wp-image-1687" src="https://masteringlync.com/wp-content/uploads/2018/10/MeetingsFirst.png?resize=768%2C63&#038;ssl=1" alt="" width="768" height="63" /> 
 
 Hmmm&#8230;.looks familiar!
 
@@ -66,7 +66,7 @@ So I actually noticed this working on Wednesday when I was doing some testing. 
 
 I guess someone had a bad experience on Skype for Business.
 
-<img class="alignnone size-full wp-image-1689" src="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/10/Hate.png?resize=317%2C132&#038;ssl=1" alt="" width="317" height="132" srcset="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/10/Hate.png?w=317&ssl=1 317w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/10/Hate.png?resize=300%2C125&ssl=1 300w" sizes="(max-width: 317px) 100vw, 317px" data-recalc-dims="1" /> 
+<img class="alignnone size-full wp-image-1689" src="https://masteringlync.com/wp-content/uploads/2018/10/Hate.png?resize=317%2C132&#038;ssl=1" alt="" width="317" height="132" /> 
 
 **Microsoft rolling out Teams add-in?**
 

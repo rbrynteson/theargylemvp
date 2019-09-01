@@ -53,17 +53,17 @@ Next we need to configure our environment into the right mode.  By default, you
 
 Since our organization is a Skype for Business shop it was easy enough to set our organization default to SfB Only.
 
-<img class="alignnone wp-image-1678 size-full" src="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/10/Modes.png?resize=800%2C280&#038;ssl=1" alt="" width="800" height="280" srcset="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/10/Modes.png?w=892&ssl=1 892w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/10/Modes.png?resize=300%2C105&ssl=1 300w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/10/Modes.png?resize=768%2C269&ssl=1 768w" sizes="(max-width: 800px) 100vw, 800px" data-recalc-dims="1" /> 
+<img class="alignnone wp-image-1678 size-full" src="https://masteringlync.com/wp-content/uploads/2018/10/Modes.png?resize=800%2C280&#038;ssl=1" alt="" width="800" height="280" /> 
 
 As you can see, there are three modes currently supported.  In the near future, we will see two additional modes related to Skype for Business interop and those are Skype for Business + Teams Collab and Skype for Business + Teams Collab + Meetings.  I think Microsoft announced at Ignite we should see those by early 2019 if my memory is correct.
 
 The second item we need to do is setup our Teams to allow it to Chat/Interop with Skype for Business. By default, this is disabled.  So from the Modern Portal go to Teams Settings under Org Wide Settings.  Scroll down a bit and you should see this:
 
-<img class="alignnone size-full wp-image-1679" src="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/10/Interop.png?resize=800%2C146&#038;ssl=1" alt="" width="800" height="146" srcset="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/10/Interop.png?w=949&ssl=1 949w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/10/Interop.png?resize=300%2C55&ssl=1 300w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/10/Interop.png?resize=768%2C140&ssl=1 768w" sizes="(max-width: 800px) 100vw, 800px" data-recalc-dims="1" /> 
+<img class="alignnone size-full wp-image-1679" src="https://masteringlync.com/wp-content/uploads/2018/10/Interop.png?resize=800%2C146&#038;ssl=1" alt="" width="800" height="146" /> 
 
 Next, we need to setup a Teams Only user because that is the whole point of this exercise.  So again, from the Modern Portal, you will go to Users and find the user you want to move to MS Teams:
 
-<img class="alignnone size-full wp-image-1680" src="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/10/TeamsOnly.png?resize=364%2C332&#038;ssl=1" alt="" width="364" height="332" srcset="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/10/TeamsOnly.png?w=364&ssl=1 364w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/10/TeamsOnly.png?resize=300%2C274&ssl=1 300w" sizes="(max-width: 364px) 100vw, 364px" data-recalc-dims="1" /> 
+<img class="alignnone size-full wp-image-1680" src="https://masteringlync.com/wp-content/uploads/2018/10/TeamsOnly.png?resize=364%2C332&#038;ssl=1" alt="" width="364" height="332" /> 
 
 Now this is the important part!!!  For this interop to work correctly, the user who you set to Teams Only **MUST HAVE BEEN** migrated to Skype for Business Online.  If they are a Skype for Business On-Premises user nothing is going to happen here.
 
@@ -89,7 +89,7 @@ This one was a bit confusing at first.  Everyone in our organization was in Isl
 
 The issue was, I was using an existing Teams Chat thread and I thought it would be smart enough to route to the right place.
 
-<img class="alignnone size-full wp-image-1681" src="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/10/No.png?resize=401%2C180&#038;ssl=1" alt="" width="401" height="180" srcset="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/10/No.png?w=401&ssl=1 401w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/10/No.png?resize=300%2C135&ssl=1 300w" sizes="(max-width: 401px) 100vw, 401px" data-recalc-dims="1" /> 
+<img class="alignnone size-full wp-image-1681" src="https://masteringlync.com/wp-content/uploads/2018/10/No.png?resize=401%2C180&#038;ssl=1" alt="" width="401" height="180" /> 
 
 So as you can see above I have two different chats going with Matt.  One in Teams and one in SfB.  I can tell based on the icon.  This because a Skype for Business Only mode doesn&#8217;t actually take away anything from the Teams client.  In the future, this will be changed and my guess is even with that change, if I tried Chat/IM with an existing thread it would go no-where and just cause confusion.
 
@@ -101,7 +101,7 @@ So the key for the Teams user, is to start a new thread using the New Chat butto
 
 This is going to happen to what I hope is a very SMALL handful of customers but in case it does here is what happened.  So when I did all of the above, when a Skype for Business user would Chat/IM with me the message it would &#8220;break&#8221; through my upgraded client.  Check out the below:
 
-<img class="alignnone size-full wp-image-1682" src="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/10/Updated.png?resize=693%2C540&#038;ssl=1" alt="" width="693" height="540" srcset="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/10/Updated.png?w=693&ssl=1 693w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/10/Updated.png?resize=300%2C234&ssl=1 300w" sizes="(max-width: 693px) 100vw, 693px" data-recalc-dims="1" /> 
+<img class="alignnone size-full wp-image-1682" src="https://masteringlync.com/wp-content/uploads/2018/10/Updated.png?resize=693%2C540&#038;ssl=1" alt="" width="693" height="540" /> 
 
 So if I was running my SfB Client, it would tell me I was updated and now using Teams but if someone tried to Chat/IM with me it would still appear as a Chat window.  Absolutely crazy stuff.  If I closed/exited SfB on my desktop then the SfB user would get a 480 No Devices Available.
 

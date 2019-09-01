@@ -34,7 +34,7 @@ If you are going to Ignite make sure to check out <a href="http://blog.ucomsgeek
 
 The post also details a prize for taking a selfie with those behind the amazing CommsvNext Event!  Good news, I didn&#8217;t need to take a selfie as I already had a picture taken with them.
 
-<img class="alignnone wp-image-1665 size-large" src="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/09/MountRushmore.png?resize=800%2C477&#038;ssl=1" alt="" width="800" height="477" srcset="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/09/MountRushmore.png?resize=1024%2C610&ssl=1 1024w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/09/MountRushmore.png?resize=300%2C179&ssl=1 300w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/09/MountRushmore.png?resize=768%2C457&ssl=1 768w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/09/MountRushmore.png?w=1567&ssl=1 1567w" sizes="(max-width: 800px) 100vw, 800px" data-recalc-dims="1" /> 
+<img class="alignnone wp-image-1665 size-large" src="https://masteringlync.com/wp-content/uploads/2018/09/MountRushmore.png?resize=800%2C477&#038;ssl=1" alt="" width="800" height="477" /> 
 
 **You are an Admin!  You are an Admin!  You are an Admin!**
 

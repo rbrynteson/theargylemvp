@@ -84,11 +84,11 @@ Now, since you are pointing your VirtualHost for each of these to the DocumentRo
 
 You will be prompted about if you want to forward all http to https traffic.  In my case, I didn&#8217;t want to do this because I had no idea if WordPress was going to freak out, so I choose #1.
 
-<img class="alignnone size-full wp-image-1580" src="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/07/2-3.png?resize=644%2C163&#038;ssl=1" alt="" width="644" height="163" srcset="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/07/2-3.png?w=644&ssl=1 644w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/07/2-3.png?resize=300%2C76&ssl=1 300w" sizes="(max-width: 644px) 100vw, 644px" data-recalc-dims="1" /> 
+<img class="alignnone size-full wp-image-1580" src="https://masteringlync.com/wp-content/uploads/2018/07/2-3.png?resize=644%2C163&#038;ssl=1" alt="" width="644" height="163" /> 
 
 After selecting #1 you should see this:
 
-<img class="alignnone size-full wp-image-1581" src="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/07/1-3.png?resize=640%2C225&#038;ssl=1" alt="" width="640" height="225" srcset="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/07/1-3.png?w=640&ssl=1 640w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/07/1-3.png?resize=300%2C105&ssl=1 300w" sizes="(max-width: 640px) 100vw, 640px" data-recalc-dims="1" /> 
+<img class="alignnone size-full wp-image-1581" src="https://masteringlync.com/wp-content/uploads/2018/07/1-3.png?resize=640%2C225&#038;ssl=1" alt="" width="640" height="225" /> 
 
 **Step #3:** Test
 
@@ -115,7 +115,7 @@ But maybe you don&#8217;t want to set a calendar reminder to update all the time
 
 This will run the renewal process, everyday at 1AM local time for the server.  And it dumps the results to a log file.  The cool thing about the certbot renew command is that if the cert is not less than 30 days from expiring, it simply will do nothing.
 
-<img class="alignnone size-full wp-image-1582" src="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/07/3-2.png?resize=644%2C256&#038;ssl=1" alt="" width="644" height="256" srcset="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/07/3-2.png?w=644&ssl=1 644w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/07/3-2.png?resize=300%2C119&ssl=1 300w" sizes="(max-width: 644px) 100vw, 644px" data-recalc-dims="1" /> 
+<img class="alignnone size-full wp-image-1582" src="https://masteringlync.com/wp-content/uploads/2018/07/3-2.png?resize=644%2C256&#038;ssl=1" alt="" width="644" height="256" /> 
 
 That&#8217;s it.  Your WordPress + MultiSite deployment has SSL Certs for all the website.  Hopefully that helps someone else.
 

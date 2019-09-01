@@ -34,7 +34,7 @@ If you are using Office 2016 and you are in the Office Insiders Fast ring you wi
 
 I remember way back in Office 2007 when they introduced the ribbon.  At the time I was working at a school district and was responsible for training the nearly 2000 staff members on how it worked and it was a MAJOR deal.  Although not as major, this is going to be another change to customers so I hope the training departments are ready.  Here is a screenshot from Outlook 2016 for example:
 
-<img class="alignnone wp-image-1595 size-large" src="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/09/NewOutlook.png?resize=800%2C159&#038;ssl=1" alt="" width="800" height="159" srcset="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/09/NewOutlook.png?resize=1024%2C204&ssl=1 1024w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/09/NewOutlook.png?resize=300%2C60&ssl=1 300w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/09/NewOutlook.png?resize=768%2C153&ssl=1 768w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/09/NewOutlook.png?w=1600&ssl=1 1600w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/09/NewOutlook.png?w=2400&ssl=1 2400w" sizes="(max-width: 800px) 100vw, 800px" data-recalc-dims="1" /> 
+<img class="alignnone wp-image-1595 size-large" src="https://masteringlync.com/wp-content/uploads/2018/09/NewOutlook.png?resize=800%2C159&#038;ssl=1" alt="" width="800" height="159" /> 
 
 That is certainly a &#8220;simplified&#8221; version of the ribbon.  Word, Excel and PowerPoint don&#8217;t have the simplified ribbon but I&#8217;m sure they are next.  After using it for a few days, I like it!
 
@@ -56,7 +56,7 @@ Teams picks up one of the <a href="https://support.office.com/en-us/article/What
 
 Everyone loves a good <a href="https://www.gartner.com/doc/reprints?id=1-5EXL4OW&ct=180906&st=sb&utm_source=t.co&utm_medium=referral" target="_blank" rel="noopener">Magic Quadrant</a>.  Well, no shock but Microsoft made the Meetings Magic Quadrant and not only that it&#8217;s a three way race between Zoom, Cisco and Microsoft.  I&#8217;m a bit shocked by how high Zoom is but maybe their super-simple-few-features Meeting experience is what people are looking for.  Something that just works.  I&#8217;ll be honest, first time I heard the name Zoom I thought it was a new car from Mazda.
 
-<img class="wp-image-1596 alignnone" src="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/09/343132_0001.png?resize=600%2C600&#038;ssl=1" alt="" width="600" height="600" srcset="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/09/343132_0001.png?w=1393&ssl=1 1393w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/09/343132_0001.png?resize=150%2C150&ssl=1 150w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/09/343132_0001.png?resize=300%2C300&ssl=1 300w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/09/343132_0001.png?resize=768%2C768&ssl=1 768w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/09/343132_0001.png?resize=1024%2C1024&ssl=1 1024w" sizes="(max-width: 600px) 100vw, 600px" data-recalc-dims="1" /> 
+<img class="wp-image-1596 alignnone" src="https://masteringlync.com/wp-content/uploads/2018/09/343132_0001.png?resize=600%2C600&#038;ssl=1" alt="" width="600" height="600"  /> 
 
 &nbsp;
 

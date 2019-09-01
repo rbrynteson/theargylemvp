@@ -40,7 +40,7 @@ Yep, <a href="https://blogs.technet.microsoft.com/exchange/2018/10/22/exchange-s
 
 Using <a href="https://support.office.com/en-us/article/follow-the-latest-updates-in-skype-for-business-cece9f93-add1-4d93-9a38-56cc598e5781?ui=en-US&rs=en-US&ad=US#OS_Type=Windows" target="_blank" rel="noopener">Skype for Business on Mac</a>, then it&#8217;s time to hit the update button.  The big feature: Emoji Support!
 
-<img class="alignnone size-full wp-image-1694" src="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/10/Untitled.png?resize=362%2C175&#038;ssl=1" alt="" width="362" height="175" srcset="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/10/Untitled.png?w=362&ssl=1 362w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/10/Untitled.png?resize=300%2C145&ssl=1 300w" sizes="(max-width: 362px) 100vw, 362px" data-recalc-dims="1" /> 
+<img class="alignnone size-full wp-image-1694" src="https://masteringlync.com/wp-content/uploads/2018/10/Untitled.png?resize=362%2C175&#038;ssl=1" alt="" width="362" height="175" /> 
 
 Just kidding&#8230;Skype for Business on Mac now supports the Teams Only upgrade path.
 

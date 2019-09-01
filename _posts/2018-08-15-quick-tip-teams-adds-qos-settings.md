@@ -30,7 +30,7 @@ Microsoft has slipped out a bunch of changes into the Modern Portal and we will 
 
 If you go to Meetings | Meeting Settings you will see:
 
-<img class="alignnone wp-image-1577" src="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/07/1-2.png?resize=800%2C454&#038;ssl=1" alt="" width="800" height="454" srcset="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/07/1-2.png?w=976&ssl=1 976w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/07/1-2.png?resize=300%2C170&ssl=1 300w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/07/1-2.png?resize=768%2C436&ssl=1 768w" sizes="(max-width: 800px) 100vw, 800px" data-recalc-dims="1" /> 
+<img class="alignnone wp-image-1577" src="https://masteringlync.com/wp-content/uploads/2018/07/1-2.png?resize=800%2C454&#038;ssl=1" alt="" width="800" height="454" /> 
 
 The settings are really straight forward and what you would expect for a modern product.  By default, the QoS markers are disabled for the client.  So first you need to check the box to turn them on.  Once you have done that, you will get the option to select the port ranges you want to use.  The defaults are the same as Skype for Business Online.
 
