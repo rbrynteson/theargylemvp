@@ -16,14 +16,14 @@ So without any more introductions:
 
 ## Meetings First Mode
 
-As seen all over Twitter and the [Tech Community]( https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Meetings-First-brings-Microsoft-Teams-meetings-to-Skype-for/ba-p/828340) website was the big announcement of Meetings first mode.  Although I’m super excited to see these announcements as being public this functionality has been baked for some time.  If you were a reader you would have known all about this from these handy blogs:
+As seen all over Twitter and the [Tech Community]( https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Meetings-First-brings-Microsoft-Teams-meetings-to-Skype-for/ba-p/828340) website was the big announcement of Meetings first mode.  Although I'm super excited to see these announcements as being public this functionality has been baked for some time.  If you were a reader you would have known all about this from these handy blogs:
 
 - 6 25 2019 – [Modes Are The Answer](https://theargylemvp.com/2019/06/24/modes-are-the-answer/)
 - 6 24 2019 – [Why Have You Moved To Teams](https://theargylemvp.com/2019/06/24/why-not-move/) 
 
 <img src="https://theargylemvp.com/assets/images/09032019-2.png" width="650" />
 
-This isn’t a contest to who posted it first (I did :-) ) but instead it is exciting to see Microsoft finally get the word out.  I’ve been a big fan of meeting modes and have been running in this mode for some time.
+This isn’t a contest to who posted it first (I did :-) ) but instead it is exciting to see Microsoft finally get the word out.  I've been a big fan of meeting modes and have been running in this mode for some time.
 
 But what is the general public saying about Meetings First mode (or all of the modes)?  The reaction has been mixed to say the least.  The biggest problem with the Modes is that your users are most likely in Islands mode and given that Microsoft made sure the ENTIRE world knew about all of the cool features of Teams it means to get back into one of the two usable SfB + Teams mode would require you to take something away from users.  In particular: Chat.
 
