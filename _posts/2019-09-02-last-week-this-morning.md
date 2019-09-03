@@ -3,7 +3,7 @@ title: Last Week (in Teams) This Morning - September 2nd
 date: 2019-09-02T09:45:39+00:00
 author: Richard Brynteson
 layout: post
-permalink: /2019/08/14/where-did-my-chat-disappear-to/
+permalink: /2019/08/14/last-week-this-morning/
 categories:
   - Microsoft Teams
   - Skype for Business
