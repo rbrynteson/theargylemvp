@@ -1,9 +1,9 @@
 ---
 title: Last Week (in Teams) This Morning - September 2nd
-date: 2019-09-02T09:45:39+00:00
+date: 2019-09-03T09:45:39+00:00
 author: Richard Brynteson
 layout: post
-permalink: /2019/08/14/last-week-this-morning/
+permalink: /2019/09/03/last-week-this-morning/
 categories:
   - Microsoft Teams
   - Skype for Business
