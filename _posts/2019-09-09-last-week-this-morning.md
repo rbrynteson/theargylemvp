@@ -19,7 +19,7 @@ So lets get to the biggest news of the year!  No, Private Channels did not come 
 
 Mark your calendar, book your flights, get ready to submit your session.  But it is BACK and I am sure better than ever.
 
-<img src="https://theargylemvp.com/assets/images/09092019-01.png" />
+<img src="https://theargylemvp.com/assets/images/09092019-1.png" width="600px" />
 
 The conference has once again moved from its June date in 2019 back to August 2020.  The same great hotel will be used which means make sure to bring a jacket because it might be a bit cold in the rooms.  The rooms are great, the staff is wonderful and everything about this conference runs like clockwork.  I am sure their [website](https://commsvnext.com/) will have all sorts of great info as we get closer.  
 
@@ -49,17 +49,19 @@ If you are a voice routing nerd than obviously you like to write your own regula
 
 <img src="https://1.bp.blogspot.com/-LaiHNW4oVPI/XW38be0kMqI/AAAAAAAAA-o/aao2pcYf1IMBGcg2ShSp1cBJ9f8RuS2uACLcBGAs/s640/TeamsTenantDialPlanEditorv1.00.png" />
 
-I have not yet had a chance to test the second but I have used the first several times and I love it.  Speaking of Direct Routing, if you have never had the opportunity to glance through the [Direct Routing for Multiple Tenants](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-sbc-multiple-tenants) docs page, may I suggest you not.  Since this is mostly a vendor specific page (yes there are some customer scenarios you could use this with but I am guessing 99% of the multi-tenant deployments for Direct Routing are partner based) it might be the page with the worse directions.  After playing around with this in testing for a week I can tell you 100% there is a step missing from it. And like any good Skype for Business administrator I can tell you it deals with DNS, Certificates or Firewalls.  :-)
+I have not yet had a chance to test the second but I have used the first several times and I love it.  
 
-I will do a pull request when I have a chance but for now everyone can wait in anticipation.
+Speaking of Direct Routing, if you have never had the opportunity to glance through the [Direct Routing for Multiple Tenants](https://docs.microsoft.com/en-us/MicrosoftTeams/direct-routing-sbc-multiple-tenants) docs page, may I suggest you not.  Since this is mostly a vendor specific page (yes there are some customer scenarios you could use this with but I am guessing 99% of the multi-tenant deployments for Direct Routing are partner based) it might be the page with the worse directions.  After playing around with this in testing for a week I can tell you 100% there is a step missing from it. And like any good Skype for Business administrator I can tell you it deals with DNS, Certificates or Firewalls.  :-)
+
+I will do a pull request when I have a chance but for now everyone will have to wait in anticipation.
 
 ## Chat Bots
 
-If you like Bots and love Microsoft Teams there is a new [chat bot](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Modernize-employee-experience-with-this-no-code-chatbot-in-Teams/ba-p/839641) you can play with it.  There are all sorts of fun things you can do with bots.  If you are bored you can always check out the (source code)[https://github.com/rbrynteson/notpatrichardbot] for the Not Pat Richard bot.  Or [click here](https://webchat.botframework.com/embed/notpatrichardbot?s=bdc2X-eIDrk.KloAjSYGnUDPgrCkgYycbpJuAgBIv_KRaSIwTdUFvyM) and enjoy the show.
+If you like Bots and love Microsoft Teams there is a new [chat bot](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Modernize-employee-experience-with-this-no-code-chatbot-in-Teams/ba-p/839641) you can play with it.  There are all sorts of fun things you can do with bots.  If you are bored you can always check out the [source code](https://github.com/rbrynteson/notpatrichardbot) for the Not Pat Richard bot.  Or [click here](https://webchat.botframework.com/embed/notpatrichardbot?s=bdc2X-eIDrk.KloAjSYGnUDPgrCkgYycbpJuAgBIv_KRaSIwTdUFvyM) and enjoy the show.
 
 ## Snipping Tool and Teams
 
-<img src="https://theargylemvp.com/assets/images/09092019-02.png" />
+<img src="https://theargylemvp.com/assets/images/09092019-2.png" />
 
 So this has ABSOLUTELY nothing to do with Microsoft Teams but for some reason Ibrahim decided it needed to be tagged in the #MicrosoftTeams channel.  Since it was in my Twitter feed I decided I need to say a few things.  
 
