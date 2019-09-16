@@ -1,6 +1,6 @@
 ---
 title: Last Week (in Teams) This Morning - September 16th
-date: 2019-16-09T13:55:39+00:00
+date: 2019-09-16T13:55:39+00:00
 author: Richard Brynteson
 layout: post
 permalink: /2019/09/16/last-week-this-morning/
