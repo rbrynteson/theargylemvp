@@ -38,8 +38,15 @@ This is going to be a long list.  I will try to organize the list in a way that 
 - Office 365 Groups
 - Stream
 - Skype for Business Online
+- Exchange Online
+- OneDrive for Business
+- Microsoft Flow
+- Microsoft Forms
 - Security & Compliance
 - Governance & Lifecycle
+- Call Recording & Compliance
+- Adoption and Change Management
+- Azure
 
 #### Admin Tools
 - PowerShell
@@ -63,6 +70,8 @@ This is going to be a long list.  I will try to organize the list in a way that 
 - PRI
 
 And obviously there are sub-sets of information under each of these categories.  In Azure AD Groups you better know about Guest management, how to add, remove accounts and much more.  If you something I missed feel free to drop a comment below or hit me up on twitter.
+
+Thanks to Randy Chapman and Shawn Henry for adding more items to the list.
 
 ## Soft Skills
 
