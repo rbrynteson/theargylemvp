@@ -24,43 +24,45 @@ Since there is no such thing as a Teams Administrator and no company is most lik
 This is going to be a long list.  I will try to organize the list in a way that makes sense.  But obivously you cannot and will not be an expert in every area.  But the more you know the more you know the more you have.  Some of these items are may not apply to your organization.  For example, if you do not plan on doing PSTN Calling in Teams, all of the telephony stuff does not matter.  Likewise, if you do not have to migrate users from Skype for Business to Teams then you do not need to know it even existed previously.
 
 #### Identity
-Active Directory
-Azure AD Connect
+- Active Directory
+- Azure AD Connect
 
 #### Desktop
-Windows 7/10
-Desktop Deployment Software
-Office 365 - Outlook
+- Windows 7/10
+- Desktop Deployment Software
+- Office 365 - Outlook
 
 #### Office 365
-SharePoint
-Yammer
-Office 365 Groups
-Stream
-Skype for Business Online
-Security & Compliance
-Governance & Lifecycle
+- SharePoint
+- Yammer
+- Office 365 Groups
+- Stream
+- Skype for Business Online
+- Security & Compliance
+- Governance & Lifecycle
 
 #### Admin Tools
-PowerShell
-MS Graph
+- PowerShell
+- MS Graph
 
 #### Network
-Layer 2 Networking (Switched)
-Layer 3 Networking (Routed)
-IPv4
-IPv6
-TCP/IP
-Quality of Service
-Firewalls
-Network Sniffer (Wireshark, Message Analyzer)
-Audio Codecs (G.711 etc)
-HTTP/HTTPS
+- Layer 2 Networking (Switched)
+- Layer 3 Networking (Routed)
+- IPv4
+- IPv6
+- TCP/IP
+- Quality of Service
+- Firewalls
+- Network Sniffer (Wireshark, Message Analyzer)
+- Audio Codecs (G.711 etc)
+- HTTP/HTTPS
 
 #### Telephony
-SIP
-SBC
-PRI
+- SIP
+- SBC
+- PRI
+
+And obviously there are sub-sets of information under each of these categories.  In Azure AD Groups you better know about Guest management, how to add, remove accounts and much more.  If you something I missed feel free to drop a comment below or hit me up on twitter.
 
 ## Soft Skills
 
