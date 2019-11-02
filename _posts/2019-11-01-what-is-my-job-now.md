@@ -46,7 +46,6 @@ This is going to be a long list.  I will try to organize the list in a way that 
 - Governance & Lifecycle
 - Call Recording & Compliance
 - Adoption and Change Management
-- Azure
 
 #### Admin Tools
 - PowerShell
