@@ -26,6 +26,8 @@ image: https://masteringlync.com/wp-content/uploads/sites/2/2017/12/4316445.jpg
 categories:
   - Uncategorized
 ---
+UPDATE: Action has been pushed back to January 15, 2020 now to give organizations more time.
+
 On Thursday of last week, Microsoft dropped a post on the Tech Communities page with pretty much no context. Here is the [announcment](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/OAuth-2-0-and-third-party-application-ID/ba-p/482876):
 
 &#8220;_To provide our customers with best-in-class security across our services, Microsoft is implementing the use of&nbsp;_[_Microsoft Identity Platform 2.0_](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent)_&nbsp;(an evolution of the Azure Active Directory identity service) which uses the OAuth 2.0 authorization protocol. OAuth 2.0 is a method through which a third-party app can access web-hosted resources on behalf of a user, through a third-party application ID._
@@ -34,18 +36,18 @@ On Thursday of last week, Microsoft dropped a post on the Tech Communities page 
 
 _As result of this change, Skype for Business IP Phone partners have made a code change to use partner specific application ID. When deployed, the customer tenant admin will be required to confirm consent to allow the third-party phone application to be granted the necessary permissions (the same permissions currently being used by Skype for Business IP Phones)._&#8220;
 
-Anytime you have the words &#8211; effective immediately &#8211; in a blog post about a customers enterprise environment that will get some people&#8217;s attention. So what is happening under the hood is that each phone provider now has to use their own App ID for approval into your O365 environment. Today, Microsoft gave an internal App ID to phone vendors to embed in their 3PIP phones so they could get access to services. The users of course had to still supply username/password but it was hiding under there.
+Anytime you have the words &#8211; effective immediately &#8211; in a blog post about a customers enterprise environment that will get some peoples attention. So what is happening under the hood is that each phone provider now has to use their own App ID for approval into your O365 environment. Today, Microsoft gave an internal App ID to phone vendors to embed in their 3PIP phones so they could get access to services. The users of course had to still supply username/password but it was hiding under there.
 
-So now each vendor will have it&#8217;s own App ID. 
+So now each vendor will have its own App ID. 
 
   * [Polycom](https://login.microsoftonline.com/common/adminconsent?client_id=a850aaae-d5a5-4e82-877c-ce54ff916282&redirect_uri=https://dialin.plcm.vc/teams/postconsent.html)
   * [Crestron](https://support.crestron.com/app/answers/answer_view/a_id/1000349)
-  * AudioCodes
-  * Yealink
+  * [AudioCodes](https://login.microsoftonline.com/common/adminconsent?client_id=da7b5888-f76d-4244-9688-afac90a03d49)
+  * [Yealink](https://login.microsoftonline.com/common/adminconsent?client_id=f1faadeb-88b3-4852-8138-3b9e23b24619)
 
-And when you click on the link, then you approve that vendors App ID into your O365 tenant. [Tom](https://tomtalks.blog/2019/04/all-skype-for-business-ip-phones-must-be-firmware-updated-by-july-1st-2019-to-continue-to-sign-into-office-365/) has some cool screen shots of this along with a few FAQ&#8217;s on it. One thing I wanted to add to the list is a table because I think it&#8217;s easier to understand what I need to do.
+And when you click on the link, then you approve that vendors App ID into your O365 tenant. [Tom](https://tomtalks.blog/2019/04/all-skype-for-business-ip-phones-must-be-firmware-updated-by-july-1st-2019-to-continue-to-sign-into-office-365/) has some cool screen shots of this along with a few FAQs on it. One thing I wanted to add to the list is a table because I think it is easier to understand what I need to do.
 
-<table class="wp-block-table">
+<table class="wp-block-table" border="1">
   <tr>
     <td>
       Deployment Type
