@@ -9,7 +9,7 @@ categories:
   - Development
 ---
 
-In todays world we are sharing and working on more code together than ever before.  Even in small teams within a company or maybe even in an collective groups online you might be sharing code development opportunities.  This code is most likely being stored in GitHub or another git repository.  The problem is when you have multiple people working on code it starts looking different depending on who is writing the code.  This is where linting comes in.
+In today's world we are sharing and working on more code together than ever before. Even in small teams within a company or maybe even in a collective group online you might be sharing code development opportunities. This code is most likely being stored in GitHub or another git repository. The problem is when you have multiple people working on code it starts looking different depending on who is writing the code. This is where linting comes in.
 
 ## What is to lint?
 
