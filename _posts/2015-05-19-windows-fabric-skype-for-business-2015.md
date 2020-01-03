@@ -83,7 +83,7 @@ _RECOMMENDATION_: If you are running Windows 2008 R2 you should not do an in-pla
 
 In terms of how Skype and Fabric work together, it&#8217;s a very similar picture from Lync 2013.
 
-[<img class="alignnone wp-image-1083 size-full" src="https://i0.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2015/03/fab1.png?resize=800%2C446&#038;ssl=1" alt="fab1" width="800" height="446" srcset="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2015/03/fab1.png?w=812&ssl=1 812w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2015/03/fab1.png?resize=300%2C167&ssl=1 300w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2015/03/fab1.png?resize=768%2C428&ssl=1 768w" sizes="(max-width: 800px) 100vw, 800px" data-recalc-dims="1" />](https://i0.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2015/03/fab1.png)
+<img class="alignnone wp-image-1083 size-full" src="https://masteringlync.com/wp-content/uploads/2015/03/fab1.png?resize=768%2C428&ssl=1 768w" sizes="(max-width: 800px) 100vw, 800px" data-recalc-dims="1" />
 
 What should be obvious is that the basic concepts are the same.  The backend database exists as a location for blob storage for the front-end servers, this allows the front-ends to hydrate their local database when a routing group is started.  The biggest change however is that conferencing data is now written synchronously to the backend database.  This change will allow conferences to resume faster in the event of a failure of a front-end server.
 
@@ -95,7 +95,7 @@ The Windows Fabric is installed during the setup of your Skype for Business Serv
 
 During installation, Windows Fabric creates a local configuration file at C:\ProgramData\Windows Fabric\<server.domain.com>\Fabric\ClusterManifest.current.xml.  This is a location change from Lync Server 2013 which stored the file at C:\Program Files\Windows Fabric\bin\ClusterManifest.current.xml.
 
-[<img class="alignnone wp-image-1167 size-full" src="https://i0.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2015/05/00001.png?resize=800%2C96&#038;ssl=1" alt="00001" width="800" height="96" srcset="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2015/05/00001.png?w=1087&ssl=1 1087w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2015/05/00001.png?resize=300%2C36&ssl=1 300w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2015/05/00001.png?resize=768%2C93&ssl=1 768w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2015/05/00001.png?resize=1024%2C123&ssl=1 1024w" sizes="(max-width: 800px) 100vw, 800px" data-recalc-dims="1" />](https://i0.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2015/05/00001.png)
+<img class="alignnone wp-image-1167 size-full" src="https://masteringlync.com/wp-content/uploads/2015/05/00001.png?resize=1024%2C123&ssl=1 1024w" sizes="(max-width: 800px) 100vw, 800px" data-recalc-dims="1" />
 
 One interesting item to be aware of is that the ClusterManifest.current.xml file is generated new each time the Windows Fabric service starts.  Therefore, the xml file should never be manually altered as the changes will simply be overwritten on the next reboot anyways.  It&#8217;s also important to note that all front-end servers use Windows Fabric, even Standard Edition Services.  Fabric is used for much more then the population of routing group information.  Windows Fabric is used by the Lync Storage Services (LYSS), MCU Factory Services and much more.
 
@@ -185,13 +185,13 @@ _<span style="text-decoration: underline">Routing Groups</span>_
 
 The routing group is the heart of Windows Fabric in my mind.  In our example below we have three front-end servers: lyncfe00, lyncfe01 and lyncfe02.  When the fabric service (and hence front-end services) start up for the first time they go through a process in which routing groups are assigned to servers. These routing groups than correspond back to users.  So let&#8217;s walk through the database and see where we see the routing group.
 
-<img class="alignnone" src="https://i2.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/10/pic22.png?resize=800%2C283&#038;ssl=1" alt="" width="800" height="283" data-recalc-dims="1" /> 
+<img class="alignnone" src="https://masteringlync.com/wp-content/uploads/2013/10/pic22.png?resize=800%2C283&#038;ssl=1" alt="" width="800" height="283" data-recalc-dims="1" /> 
 
 We can connect to any of the RTCLocal\RTC databases running on the front-end of any server.  Remember, Windows Fabric means we don&#8217;t need to rely on the back-end database so all of this data is sitting on the front-ends.  By looking at the RoutingGroupAssignment table we can see which routing groups are assigned to which front-end servers at a given time.  Therefore in my example, we can see six different routing groups.  When you add more users to a pool the total number of routing groups continues to grow.  The second query is against the FrontEnd table and here we can see that 12040 is lyncfe00.thelab.info server.  As you can see in my lab, of the six routing groups that exist, there are two routing groups assigned to each of the three front-end servers that are currently running.
 
 Users are assigned to these routing groups.  This information can be found in both Active Directory and in the SQL Database.  If we look at the msRTCSIP-UserRoutingGroupId in Active Directory we can see the routing group a user is assigned to in reverse order.
 
-<img class="alignnone" src="https://i0.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/10/pic32.png?resize=534%2C374&#038;ssl=1" alt="" width="534" height="374" data-recalc-dims="1" /> 
+<img class="alignnone" src="https://masteringlync.com/wp-content/uploads/2013/10/pic32.png?resize=534%2C374&#038;ssl=1" alt="" width="534" height="374" data-recalc-dims="1" /> 
 
 As you can see here, the msRTCSIP-UserRoutingGroupID in active directory corresponds to a routing group defined within Skype for Business.  Some of the numbers are reversed from Active Directory to what is seen in the RTCLocal database.  What is important to know is that this routing group ID doesn&#8217;t change once it&#8217;s set (unless your server gets more routing groups because more users are added to the pool).
 
@@ -199,7 +199,7 @@ EXPERT NOTE: When you invoke a pool-failover the routing groups are assigned fro
 
 The routing group information can be found at an user level as well by running the Get-CsUserPoolInfo command.
 
-<img class="alignnone" src="https://i1.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/10/pic42.png?resize=643%2C280&#038;ssl=1" alt="" width="643" height="280" data-recalc-dims="1" /> 
+<img class="alignnone" src="https://masteringlync.com/wp-content/uploads/2013/10/pic42.png?resize=643%2C280&#038;ssl=1" alt="" width="643" height="280" data-recalc-dims="1" /> 
 
 _<span style="text-decoration: underline">Loading the Routing Group</span>_
 
@@ -215,7 +215,7 @@ _<span style="text-decoration: underline">Routing Groups Quorum</span>_
 
 As mentioned previously, routing groups have quorum in addition to pool quorum and as such you must take special care to ensure that routing group quorum is never lost.  Let&#8217;s take a look at the below example to understand this.
 
-<img class="alignnone" src="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2015/05/00002.png?resize=687%2C241&#038;ssl=1" alt="" width="687" height="241" data-recalc-dims="1" /> 
+<img class="alignnone" src="https://masteringlync.com/wp-content/uploads/2015/05/00002.png?resize=687%2C241&#038;ssl=1" alt="" width="687" height="241" data-recalc-dims="1" /> 
 
 In our above example, we can see that server01, server02 and server03 currently host routing group 111111111.  In the event that server01 were to be lost, server02 and server03 would maintain quorum for the replica group and all users would remain connected.  However, if we lost server02 before a third replica was hydrated from the primary replica server the routing group would lose quorum.  In the event that two of the three servers were lost all users assigned to routing group 111111111 would drop into limited functionality mode even though there are a sufficient number of servers to keep pool quorum and users in routing group 222222222 and 333333333 continue to function without any issues.
 
@@ -227,7 +227,7 @@ _<span style="text-decoration: underline">Pool Startup</span>_
 
 To complicate matters more a pool needs a minimum number of servers to be available to start or to perform a pool reset.
 
-<img class="alignnone" src="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2015/05/00004.png?resize=749%2C500&#038;ssl=1" alt="" width="749" height="500" data-recalc-dims="1" /> 
+<img class="alignnone" src="https://masteringlync.com/wp-content/uploads/2015/05/00004.png?resize=749%2C500&#038;ssl=1" alt="" width="749" height="500" data-recalc-dims="1" /> 
 
 In the event that there are not a sufficient number of servers in the pool the front-end service simply will not start up.  Therefore, if you were in a situation in which two servers were down and you had lost routing group quorum before resetting the pool to return services it would be critical to ensure you had enough servers up in the pool to start services.  A pool reset executed when not all servers are available could result in the entire pool being taken offline.
 
@@ -245,11 +245,11 @@ RECOMMENDATION: If you were looking for a reason to move to SQL Always On instea
 
 Using this example again:
 
-<img class="alignnone" src="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2015/05/00002.png?resize=687%2C241&#038;ssl=1" alt="" width="687" height="241" data-recalc-dims="1" /> 
+<img class="alignnone" src="https://masteringlync.com/wp-content/uploads/2015/05/00002.png?resize=687%2C241&#038;ssl=1" alt="" width="687" height="241" data-recalc-dims="1" /> 
 
 Imagine you are hosting  a Skype for Business deployment that has seven front-end servers within a pool.  You may have a mandate from your executive team to reduce the count of physical hosts by utilizing visualization.  Now this scenario is 100% supported but placement of your servers is critical.  Imagine if you distributed your virtual servers in this format among physical hosts.
 
-<img class="alignnone" src="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2015/05/00003.png?resize=687%2C272&#038;ssl=1" alt="" width="687" height="272" data-recalc-dims="1" /> 
+<img class="alignnone" src="https://masteringlync.com/wp-content/uploads/2015/05/00003.png?resize=687%2C272&#038;ssl=1" alt="" width="687" height="272" data-recalc-dims="1" /> 
 
 Here Servers #1 and #2 are hosted on Physical host #1.  Servers #3 and #4 are hosted on Physical host #2.  All remaining servers are on host #3.  If your data-center were to experience a failure of host #1, all users within routing group 11111111 would fall into limited functionality mode immediately.  If you lost physical host #3, all users in routing group 3333333 would immediately disconnect from Skype for Business.  All of this happens even though pool quorum was never lost but routing group quorum was lost.
 
