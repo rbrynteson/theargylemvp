@@ -32,6 +32,6 @@ When Microsoft Teams came out, of course we had access to use OneNote Online but
 
 However, with the recent update to Microsoft Teams you can now select an existing OneNote Notebook or even paste a OneNote link.
 
-<img class="alignnone size-full wp-image-1479" src="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/01/01.png?resize=603%2C509&#038;ssl=1" alt="" width="603" height="509" srcset="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/01/01.png?w=603&ssl=1 603w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2018/01/01.png?resize=300%2C253&ssl=1 300w" sizes="(max-width: 603px) 100vw, 603px" data-recalc-dims="1" /> 
+<img class="alignnone size-full wp-image-1479" src="https://masteringlync.com/wp-content/uploads/2018/01/01.png?resize=300%2C253&ssl=1 300w" sizes="(max-width: 603px) 100vw, 603px" data-recalc-dims="1" /> 
 
 So you can see the new interface for picking OneNote notebooks is super useful.  So if you have been waiting to migrate to Teams, it looks like we finally have a good solution for those who are migrating lots of notebooks to SharePoint and want to access them in Teams.
