@@ -13,13 +13,13 @@ In today's world we are sharing and working on more code together than ever befo
 
 ## What is to lint?
 
-Linting is the process of running a program that will analyse code for potential errors.  You can read all about it on the [Wikipedia Page](https://en.wikipedia.org/wiki/Lint_%28software%29).  Essentially, it is a process to make sure that the code is all matching.  So here we are going to configure a lint process on an existing project.
+Linting is the process of running a program that will analyze code for potential errors.  You can read all about it on the [Wikipedia Page](https://en.wikipedia.org/wiki/Lint_%28software%29).  Essentially, it is a process to make sure that the code is all matching.  So here we are going to configure a lint process on an existing project.
 
 ## Install and Configure Lint
 
-So the first step we need to do is install lint to your workstation.  You can everything about [eslint](https://eslint.org/docs/user-guide/getting-started) on its site.  In order to install lint you will need to make sure you have npm installed on your workstation first.
+The first step we need to do is install lint to your workstation. You can everything about [eslint](https://eslint.org/docs/user-guide/getting-started) on its site. In order to install lint, you will need to make sure you have npm installed on your workstation first.
 
-Once npm is installed, open up a command prompt in the directory for your project and run:
+Once npm is installed, open a command prompt in the directory for your project and run:
 
 >> npm install eslint --save-dev
 
@@ -53,7 +53,7 @@ From this point, you can run something like the following to test your JS file:
 
 >> eslint "C:\folder\location\file.js"
 
-This will show you all of the errors.  
+This will show you all the errors.  
 
 <img src="https://theargylemvp.com/assets/images/12-11-Image6.png" />
 
