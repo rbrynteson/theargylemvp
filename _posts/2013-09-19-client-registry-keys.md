@@ -66,7 +66,7 @@ Almost all of the values are DWORD values.  Unless otherwise noted that is what
 
 The values are 0 = unchecked/disabled and 1 = checked/enabled.  Unless otherwise noted.
 
-[<img class="alignnone wp-image-856 size-full" src="https://i0.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/09/pic22.png?resize=712%2C580&#038;ssl=1" alt="pic2" width="712" height="580" srcset="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/09/pic22.png?w=712&ssl=1 712w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/09/pic22.png?resize=300%2C244&ssl=1 300w" sizes="(max-width: 712px) 100vw, 712px" data-recalc-dims="1" />](https://i2.wp.com/masteringlync.com/files/2013/09/pic22.png)
+<img class="alignnone wp-image-856 size-full" src="https://masteringlync.com/wp-content/uploads/2013/09/pic22.png" sizes="(max-width: 712px) 100vw, 712px" data-recalc-dims="1" />
 
 <table width="100%">
   <tr>
@@ -195,7 +195,7 @@ The values are 0 = unchecked/disabled and 1 = checked/enabled.  Unless otherwis
 
 **Personal Tab**
 
-[<img class="alignnone wp-image-857 size-full" src="https://i2.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/09/pic31.png?resize=712%2C581&#038;ssl=1" alt="pic3" width="712" height="581" srcset="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/09/pic31.png?w=712&ssl=1 712w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/09/pic31.png?resize=300%2C245&ssl=1 300w" sizes="(max-width: 712px) 100vw, 712px" data-recalc-dims="1" />](https://i1.wp.com/masteringlync.com/files/2013/09/pic31.png)
+<img class="alignnone wp-image-857 size-full" src="https://masteringlync.com/wp-content/uploads/sites/2/2013/09/pic31.png?resize=300%2C245&ssl=1 300w" sizes="(max-width: 712px) 100vw, 712px" data-recalc-dims="1" />
 
 <table width="100%">
   <tr>
