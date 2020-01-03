@@ -19,7 +19,7 @@ In this post we will dissect the actual pool failover and failback process and w
 
 In this scenario we have two front-end servers: Lyncfe03 and Lyncfe04 both Standard Edition servers.  They are setup in a pool pairing relationship.  To start with we will check the backup status on both servers.
 
-<a href="http://masteringlync.com/2013/11/04/understanding-pool-failover-more-than-you-wanted-to-know-most-likely/pic1-14/" rel="attachment wp-att-478"><img class="alignnone wp-image-478 size-full" src="https://i1.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/11/pic1.png?resize=800%2C200&#038;ssl=1" alt="pic1" width="800" height="200" srcset="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic1.png?w=1000&ssl=1 1000w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic1.png?resize=300%2C75&ssl=1 300w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic1.png?resize=768%2C192&ssl=1 768w" sizes="(max-width: 800px) 100vw, 800px" data-recalc-dims="1" /></a>
+<img class="alignnone wp-image-478 size-full" src="https://masteringlync.com/wp-content/uploads/2013/11/pic1.png?resize=768%2C192&ssl=1 768w" sizes="(max-width: 800px) 100vw, 800px" data-recalc-dims="1" />
 
 Here we can see that both servers are in a FinalState and NormalState so we know that pool fail-over is safe to perform.
 
@@ -29,7 +29,7 @@ When the pool failover happens the front-end server enters an unique state that 
 
 Before we do the failover let&#8217;s check out what the registration configuration is in our environment.  You will see the importance of this in a moment.
 
-<a href="http://masteringlync.com/2013/11/04/understanding-pool-failover-more-than-you-wanted-to-know-most-likely/pic2-12/" rel="attachment wp-att-479"><img class="alignnone wp-image-479 size-full" src="https://i2.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/11/pic2.png?resize=472%2C203&#038;ssl=1" alt="pic2" width="472" height="203" srcset="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic2.png?w=472&ssl=1 472w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic2.png?resize=300%2C129&ssl=1 300w" sizes="(max-width: 472px) 100vw, 472px" data-recalc-dims="1" /></a>
+<img class="alignnone wp-image-479 size-full" src="https://masteringlync.com/wp-content/uploads/2013/11/pic2.png?resize=300%2C129&ssl=1 300w" sizes="(max-width: 472px) 100vw, 472px" data-recalc-dims="1" />
 
 Now that we have this basic information down we can now invoke our failover.  For this we will use this command:
 
@@ -77,17 +77,17 @@ Now that our routing groups have moved over, we then change our RegistrarConfigu
 
 Once this has completed, we can run a _Get-CsRegistrarConfiguration_ again and now we see:
 
-<a href="http://masteringlync.com/2013/11/04/understanding-pool-failover-more-than-you-wanted-to-know-most-likely/pic3-11/" rel="attachment wp-att-480"><img class="alignnone wp-image-480 size-full" src="https://i0.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/11/pic3.png?resize=603%2C317&#038;ssl=1" alt="pic3" width="603" height="317" srcset="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic3.png?w=603&ssl=1 603w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic3.png?resize=300%2C158&ssl=1 300w" sizes="(max-width: 603px) 100vw, 603px" data-recalc-dims="1" /></a>
+<img class="alignnone wp-image-480 size-full" src="https://masteringlync.com/wp-content/uploads/2013/11/pic3.png?resize=300%2C158&ssl=1 300w" sizes="(max-width: 603px) 100vw, 603px" data-recalc-dims="1" />
 
 As you can see LyncFE04 is now in a FailedOver state.  When this happens we can see a similar event on the LyncFE03 front-end server:
 
-<a href="http://masteringlync.com/2013/11/04/understanding-pool-failover-more-than-you-wanted-to-know-most-likely/pic4-10/" rel="attachment wp-att-482"><img class="alignnone wp-image-482 size-full" src="https://i2.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/11/pic4.png?resize=497%2C115&#038;ssl=1" alt="pic4" width="497" height="115" srcset="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic4.png?w=497&ssl=1 497w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic4.png?resize=300%2C69&ssl=1 300w" sizes="(max-width: 497px) 100vw, 497px" data-recalc-dims="1" /></a>
+<img class="alignnone wp-image-482 size-full" src="https://masteringlync.com/wp-content/uploads/2013/11/pic4.png?resize=300%2C69&ssl=1 300w" sizes="(max-width: 497px) 100vw, 497px" data-recalc-dims="1" />
 
 **Restart Services on 04**
 
 So let&#8217;s go back and restart services on LyncFE04 while the registrar service is still in a FailedOver state.  When all of the services start up we see in the event viewer on LyncFE03 that LyncFE04 goes into an online state (for backup and mediation services) but from a registrar stand-point it remains in a FailedOver state.
 
-<a href="http://masteringlync.com/2013/11/04/understanding-pool-failover-more-than-you-wanted-to-know-most-likely/pic5-8/" rel="attachment wp-att-483"><img class="alignnone wp-image-483 size-full" src="https://i1.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/11/pic5.png?resize=800%2C81&#038;ssl=1" alt="pic5" width="800" height="81" srcset="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic5.png?w=805&ssl=1 805w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic5.png?resize=300%2C31&ssl=1 300w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic5.png?resize=768%2C78&ssl=1 768w" sizes="(max-width: 800px) 100vw, 800px" data-recalc-dims="1" /></a>
+<img class="alignnone wp-image-483 size-full" src="https://masteringlync.com/wp-content/uploads/2013/11/pic5.png?resize=768%2C78&ssl=1 768w" sizes="(max-width: 800px) 100vw, 800px" data-recalc-dims="1" />
 
 So simply starting services is not enough to move registrar services.  This isn&#8217;t a surprise.
 
@@ -111,11 +111,11 @@ So now that we see what is actually happening in the background when the pool fa
 
 When we run this command nothing happens immediately.  After about 90 seconds these events appear on LyncFE04:
 
-<a href="http://masteringlync.com/2013/11/04/understanding-pool-failover-more-than-you-wanted-to-know-most-likely/pic6-6/" rel="attachment wp-att-488"><img class="alignnone wp-image-488 size-full" src="https://i2.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/11/pic6.png?resize=488%2C158&#038;ssl=1" alt="pic6" width="488" height="158" srcset="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic6.png?w=488&ssl=1 488w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic6.png?resize=300%2C97&ssl=1 300w" sizes="(max-width: 488px) 100vw, 488px" data-recalc-dims="1" /></a>
+<img class="alignnone wp-image-488 size-full" src="https://masteringlync.com/wp-content/uploads/2013/11/pic6.png?resize=300%2C97&ssl=1 300w" sizes="(max-width: 488px) 100vw, 488px" data-recalc-dims="1" />
 
 And approximately 30 seconds after that you see this on the LyncFE03 pool:
 
-<a href="http://masteringlync.com/2013/11/04/understanding-pool-failover-more-than-you-wanted-to-know-most-likely/pic7-3/" rel="attachment wp-att-489"><img class="alignnone wp-image-489 size-full" src="https://i0.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/11/pic7.png?resize=458%2C79&#038;ssl=1" alt="pic7" width="458" height="79" srcset="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic7.png?w=458&ssl=1 458w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic7.png?resize=300%2C52&ssl=1 300w" sizes="(max-width: 458px) 100vw, 458px" data-recalc-dims="1" /></a>
+<img class="alignnone wp-image-489 size-full" src="https://masteringlync.com/wp-content/uploads/2013/11/pic7.png?resize=300%2C52&ssl=1 300w" sizes="(max-width: 458px) 100vw, 458px" data-recalc-dims="1" />
 
 In the background we see the client disconnect from LyncFE04 and automatically connect to LyncFE03.  Although nothing is logged on the front-end servers it appears as though the routing groups have once again been loaded on LyncFE03 again.
 
