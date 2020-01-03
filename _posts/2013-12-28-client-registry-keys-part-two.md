@@ -31,7 +31,7 @@ Here is the second post regarding client registry keys.  I will again give you 
 
 **Contact Lists Tab**
 
-<a href="http://masteringlync.com/2013/11/10/client-registry-keys-part-two/pic1-15/" rel="attachment wp-att-497"><img class="alignnone wp-image-497 size-full" src="https://i0.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/11/pic11.png?resize=730%2C596&#038;ssl=1" alt="pic1" width="730" height="596" srcset="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic11.png?w=730&ssl=1 730w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic11.png?resize=300%2C245&ssl=1 300w" sizes="(max-width: 730px) 100vw, 730px" data-recalc-dims="1" /></a>
+<img class="alignnone wp-image-497 size-full" src="https://masteringlync.com/wp-content/uploads/sites/2/2013/11/pic11.png?resize=300%2C245&ssl=1 300w" sizes="(max-width: 730px) 100vw, 730px" data-recalc-dims="1" />
 
 <table width="100%">
   <tr>
@@ -197,7 +197,7 @@ Here is the second post regarding client registry keys.  I will again give you 
 
 **Status Tab**
 
-<a href="http://masteringlync.com/2013/11/10/client-registry-keys-part-two/pic2-13/" rel="attachment wp-att-498"><img class="alignnone wp-image-498 size-full" src="https://i0.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/11/pic21.png?resize=731%2C596&#038;ssl=1" alt="pic2" width="731" height="596" srcset="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic21.png?w=731&ssl=1 731w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic21.png?resize=300%2C245&ssl=1 300w" sizes="(max-width: 731px) 100vw, 731px" data-recalc-dims="1" /></a>
+<img class="alignnone wp-image-498 size-full" src="https://masteringlync.com/wp-content/uploads/sites/2/2013/11/pic21.png?resize=300%2C245&ssl=1 300w" sizes="(max-width: 731px) 100vw, 731px" data-recalc-dims="1" />
 
 <table width="100%">
   <tr>
