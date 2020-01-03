@@ -53,7 +53,7 @@ And the Participants table contains all of the active participants for the call 
 
 <img class="alignnone wp-image-541 size-medium" src="https://masteringlync.com/wp-content/uploads/2013/11/pic35.png?w=946&ssl=1 946w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />
 
-Download Here: [Get-CSActiveConferences](http://masteringlync.com/wp-content/uploads/sites/2/2013/11/Get-CSActiveConferences.txt)
+Use the <a href="https://github.com/ImNtReal/SfBScritps/blob/master/Get-CsActiveConferences.ps1" target="_blank" rel="noopener">GitHub</a> link here.
 
 You will need to rename the script to .ps1 from .txt.  Once you have renamed the file, go ahead and run .Get-CsActiveConferences from the Lync Management Shell.  It will prompt you for the name of the pool you want get results from.  Your results will look like:
 
