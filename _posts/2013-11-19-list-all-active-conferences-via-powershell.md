@@ -47,17 +47,17 @@ The SQL is the easy part:
 
 Each front-end server in the RTCDYN database has an ActiveConference table which contains all of the active conferences running on that particular server.
 
-<a href="http://masteringlync.com/2013/11/19/list-all-active-conferences-via-powershell/pic2-16/" rel="attachment wp-att-536"><img class="alignnone wp-image-536 size-full" src="https://i2.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/11/pic24.png?resize=523%2C340&#038;ssl=1" alt="pic2" width="523" height="340" srcset="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic24.png?w=523&ssl=1 523w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic24.png?resize=300%2C195&ssl=1 300w" sizes="(max-width: 523px) 100vw, 523px" data-recalc-dims="1" /></a>
+<img class="alignnone wp-image-536 size-full" src="https://masteringlync.com/wp-content/uploads/2013/11/pic24.png?resize=300%2C195&ssl=1 300w" sizes="(max-width: 523px) 100vw, 523px" data-recalc-dims="1" />
 
 And the Participants table contains all of the active participants for the call with a corresponding conference ID.  Therefore all we need to do is join the two tables together and we have a complete list.  Using this information I went ahead and created this short script:
 
-<a href="http://masteringlync.com/2013/11/19/list-all-active-conferences-via-powershell/pic3-16/" rel="attachment wp-att-541"><img class="alignnone wp-image-541 size-medium" src="https://i0.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/11/pic35-300x277.png?resize=300%2C277&#038;ssl=1" alt="pic3" width="300" height="277" srcset="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic35.png?resize=300%2C277&ssl=1 300w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic35.png?resize=768%2C709&ssl=1 768w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic35.png?w=946&ssl=1 946w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+<img class="alignnone wp-image-541 size-medium" src="https://masteringlync.com/wp-content/uploads/2013/11/pic35.png?w=946&ssl=1 946w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />
 
 Download Here: [Get-CSActiveConferences](http://masteringlync.com/wp-content/uploads/sites/2/2013/11/Get-CSActiveConferences.txt)
 
 You will need to rename the script to .ps1 from .txt.  Once you have renamed the file, go ahead and run .Get-CsActiveConferences from the Lync Management Shell.  It will prompt you for the name of the pool you want get results from.  Your results will look like:
 
-[<img class="alignnone wp-image-544 size-large" src="https://i2.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/11/pic12-1024x158.png?resize=800%2C123&#038;ssl=1" alt="pic1" width="800" height="123" srcset="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic12.png?resize=1024%2C158&ssl=1 1024w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic12.png?resize=300%2C46&ssl=1 300w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic12.png?resize=768%2C119&ssl=1 768w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/11/pic12.png?w=1373&ssl=1 1373w" sizes="(max-width: 800px) 100vw, 800px" data-recalc-dims="1" />](https://i0.wp.com/masteringlync.com/files/2013/11/pic12.png)
+<img class="alignnone wp-image-544 size-large" src="https://masteringlync.com/wp-content/uploads/2013/11/pic12.png?w=1373&ssl=1 1373w" sizes="(max-width: 800px) 100vw, 800px" data-recalc-dims="1" />
 
 NOTE: You may need to adjust firewall rules if you don&#8217;t allow your local SQL databases to be accessible remotely.  Port 1433 is the default SQL port.
 
