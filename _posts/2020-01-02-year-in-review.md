@@ -19,16 +19,17 @@ The first number is a bad number.  18.  It’s the number of blog posts this yea
 I might need an accountability buddy to force me to get it done!
 Another items that is fun to look at is what are the most popular articles on the site.  This one is a bit surprising.  Of the Top 10 articles, the VAST majority are Skype for Business.  Maybe Skype for Business isn’t dead as some would like us to believe.  Here are my top 10.
 
-1. https://theargylemvp.com/2018/01/11/microsoft-teams-onenote-just-got-very-useful/
-2. https://theargylemvp.com/2013/11/04/understanding-pool-failover-more-than-you-wanted-to-know-most-likely/
-3. https://theargylemvp.com/2013/02/12/using-iis-application-request-routing-arr-as-a-tmg-replacement/
-4. https://theargylemvp.com/2013/11/19/list-all-active-conferences-via-powershell/
-5. https://theargylemvp.com/2013/10/29/understanding-how-windows-fabric-works/
-6. https://theargylemvp.com/2015/05/19/windows-fabric-skype-for-business-2015/
-7. https://theargylemvp.com/2016/11/07/quick-tip-microsoft-teams-under-the-hood/
-8. https://theargylemvp.com/2015/05/01/skype-for-business-conferencing-activationdeactivation/
-9. https://theargylemvp.com/2013/12/28/client-registry-keys-part-two/
-10. https://theargylemvp.com/2013/09/19/client-registry-keys/
+
+1. https://theargylemvp.com/2013/09/19/client-registry-keys/
+2. https://theargylemvp.com/2013/12/28/client-registry-keys-part-two/
+3. https://theargylemvp.com/2015/05/01/skype-for-business-conferencing-activationdeactivation/
+4. https://theargylemvp.com/2016/11/07/quick-tip-microsoft-teams-under-the-hood/
+5. https://theargylemvp.com/2015/05/19/windows-fabric-skype-for-business-2015/
+6. https://theargylemvp.com/2013/10/29/understanding-how-windows-fabric-works/
+7. https://theargylemvp.com/2013/11/19/list-all-active-conferences-via-powershell/
+8. https://theargylemvp.com/2013/02/12/using-iis-application-request-routing-arr-as-a-tmg-replacement/
+9. https://theargylemvp.com/2013/11/04/understanding-pool-failover-more-than-you-wanted-to-know-most-likely/
+10. https://theargylemvp.com/2018/01/11/microsoft-teams-onenote-just-got-very-useful/
 
 A few of these are scary to me.  Are there really customers still trying to deploy ARR as a routing method for Skype for Business?  Hopefully, it was just all old SfB Engineers lookup up what in the world this ARR thing is and how to make it go away as fast as possible.
 As a side note, who didn’t love TMG!  Such a short life for such a great product.
