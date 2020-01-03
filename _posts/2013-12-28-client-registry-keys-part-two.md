@@ -31,7 +31,7 @@ Here is the second post regarding client registry keys.  I will again give you 
 
 **Contact Lists Tab**
 
-<img class="alignnone wp-image-497 size-full" src="https://masteringlync.com/wp-content/2013/11/pic11.png?resize=300%2C245&ssl=1 300w" sizes="(max-width: 730px) 100vw, 730px" data-recalc-dims="1" />
+<img class="alignnone wp-image-497 size-full" src="https://masteringlync.com/wp-content/uploads/2013/11/pic11.png?resize=300%2C245&ssl=1 300w" sizes="(max-width: 730px) 100vw, 730px" data-recalc-dims="1" />
 
 <table width="100%">
   <tr>

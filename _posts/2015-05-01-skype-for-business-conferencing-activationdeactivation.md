@@ -103,7 +103,7 @@ This part is pretty simple.  A conference is activated when someone joins it. 
 
 All of this information can be found in the database as well.  As soon as a conference is activated, that information is placed into the RTCLocal | RTCDYN | ActiveConference database.  In my screen shot below, you can see that we have five active conferences.
 
-<img class="alignnone size-full wp-image-1150" src="https://masteringlync.com/wp-content/wp-content/uploads/2015/05/2.png?resize=300%2C51&ssl=1 300w" sizes="(max-width: 697px) 100vw, 697px" data-recalc-dims="1" />
+<img class="alignnone size-full wp-image-1150" src="https://masteringlync.com/wp-content/uploads/2015/05/2.png?resize=300%2C51&ssl=1 300w" sizes="(max-width: 697px) 100vw, 697px" data-recalc-dims="1" />
 
 Each column has a very specific purpose.  Here is a quick run down of each column.
 

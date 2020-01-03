@@ -95,7 +95,7 @@ The Windows Fabric is installed during the setup of your Skype for Business Serv
 
 During installation, Windows Fabric creates a local configuration file at C:\ProgramData\Windows Fabric\<server.domain.com>\Fabric\ClusterManifest.current.xml.  This is a location change from Lync Server 2013 which stored the file at C:\Program Files\Windows Fabric\bin\ClusterManifest.current.xml.
 
-<img class="alignnone wp-image-1167 size-full" src="https://masteringlync.com/wp-content/uploads/2015/05/00001.png?resize=1024%2C123&ssl=1 1024w" sizes="(max-width: 800px) 100vw, 800px" data-recalc-dims="1" />
+<img class="alignnone wp-image-1167 size-full" src="https://masteringlync.com/wp-content/uploads/2015/05/1.png?resize=1024%2C123&ssl=1 1024w" sizes="(max-width: 800px) 100vw, 800px" data-recalc-dims="1" />
 
 One interesting item to be aware of is that the ClusterManifest.current.xml file is generated new each time the Windows Fabric service starts.  Therefore, the xml file should never be manually altered as the changes will simply be overwritten on the next reboot anyways.  It&#8217;s also important to note that all front-end servers use Windows Fabric, even Standard Edition Services.  Fabric is used for much more then the population of routing group information.  Windows Fabric is used by the Lync Storage Services (LYSS), MCU Factory Services and much more.
 
@@ -215,7 +215,7 @@ _<span style="text-decoration: underline">Routing Groups Quorum</span>_
 
 As mentioned previously, routing groups have quorum in addition to pool quorum and as such you must take special care to ensure that routing group quorum is never lost.  Let&#8217;s take a look at the below example to understand this.
 
-<img class="alignnone" src="https://masteringlync.com/wp-content/uploads/2015/05/00002.png?resize=687%2C241&#038;ssl=1" alt="" width="687" height="241" data-recalc-dims="1" /> 
+<img class="alignnone" src="https://masteringlync.com/wp-content/uploads/2015/05/2.png?resize=687%2C241&#038;ssl=1" alt="" width="687" height="241" data-recalc-dims="1" /> 
 
 In our above example, we can see that server01, server02 and server03 currently host routing group 111111111.  In the event that server01 were to be lost, server02 and server03 would maintain quorum for the replica group and all users would remain connected.  However, if we lost server02 before a third replica was hydrated from the primary replica server the routing group would lose quorum.  In the event that two of the three servers were lost all users assigned to routing group 111111111 would drop into limited functionality mode even though there are a sufficient number of servers to keep pool quorum and users in routing group 222222222 and 333333333 continue to function without any issues.
 
@@ -227,7 +227,7 @@ _<span style="text-decoration: underline">Pool Startup</span>_
 
 To complicate matters more a pool needs a minimum number of servers to be available to start or to perform a pool reset.
 
-<img class="alignnone" src="https://masteringlync.com/wp-content/uploads/2015/05/00004.png?resize=749%2C500&#038;ssl=1" alt="" width="749" height="500" data-recalc-dims="1" /> 
+<img class="alignnone" src="https://masteringlync.com/wp-content/uploads/2015/05/4.png?resize=749%2C500&#038;ssl=1" alt="" width="749" height="500" data-recalc-dims="1" /> 
 
 In the event that there are not a sufficient number of servers in the pool the front-end service simply will not start up.  Therefore, if you were in a situation in which two servers were down and you had lost routing group quorum before resetting the pool to return services it would be critical to ensure you had enough servers up in the pool to start services.  A pool reset executed when not all servers are available could result in the entire pool being taken offline.
 
@@ -245,11 +245,11 @@ RECOMMENDATION: If you were looking for a reason to move to SQL Always On instea
 
 Using this example again:
 
-<img class="alignnone" src="https://masteringlync.com/wp-content/uploads/2015/05/00002.png?resize=687%2C241&#038;ssl=1" alt="" width="687" height="241" data-recalc-dims="1" /> 
+<img class="alignnone" src="https://masteringlync.com/wp-content/uploads/2015/05/2.png?resize=687%2C241&#038;ssl=1" alt="" width="687" height="241" data-recalc-dims="1" /> 
 
 Imagine you are hosting  a Skype for Business deployment that has seven front-end servers within a pool.  You may have a mandate from your executive team to reduce the count of physical hosts by utilizing visualization.  Now this scenario is 100% supported but placement of your servers is critical.  Imagine if you distributed your virtual servers in this format among physical hosts.
 
-<img class="alignnone" src="https://masteringlync.com/wp-content/uploads/2015/05/00003.png?resize=687%2C272&#038;ssl=1" alt="" width="687" height="272" data-recalc-dims="1" /> 
+<img class="alignnone" src="https://masteringlync.com/wp-content/uploads/2015/05/3.png?resize=687%2C272&#038;ssl=1" alt="" width="687" height="272" data-recalc-dims="1" /> 
 
 Here Servers #1 and #2 are hosted on Physical host #1.  Servers #3 and #4 are hosted on Physical host #2.  All remaining servers are on host #3.  If your data-center were to experience a failure of host #1, all users within routing group 11111111 would fall into limited functionality mode immediately.  If you lost physical host #3, all users in routing group 3333333 would immediately disconnect from Skype for Business.  All of this happens even though pool quorum was never lost but routing group quorum was lost.
 
