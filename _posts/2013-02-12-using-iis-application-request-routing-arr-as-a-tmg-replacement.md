@@ -32,7 +32,7 @@ First you need to install IIS on your Windows 2008 R2 or Windows 2012 Server. �
 
 The second item you need is ARR. This can be installed by downloading version 2.5 + hotfixes from Microsoft&#8217;s website or you can use the Web Installer (<http://www.microsoft.com/web/downloads/platform.aspx>).  This is how I typically install the product:
 
-<a href="http://masteringlync.com/2013/02/12/using-iis-application-request-routing-arr-as-a-tmg-replacement/pic1-2/" rel="attachment wp-att-141"><img class="alignnone wp-image-141 size-medium" src="https://i1.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/02/pic1-300x186.png?resize=300%2C186&#038;ssl=1" alt="pic1" width="300" height="186" srcset="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic1.png?resize=300%2C186&ssl=1 300w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic1.png?resize=768%2C477&ssl=1 768w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic1.png?w=904&ssl=1 904w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" /></a>
+<img class="alignnone wp-image-141 size-medium" src="https://masteringlync.com/wp-content/uploads/2013/02/pic1.png?w=904&ssl=1 904w" sizes="(max-width: 300px) 100vw, 300px" data-recalc-dims="1" />
 
 &nbsp;
 
@@ -56,31 +56,31 @@ Server farms are the targets of where we might send traffic to.  There isn&#821
 
 In IIS Manager, Click on **Server Farms** and right-click and choose **Create Server Farm**.
 
-<a href="http://masteringlync.com/2013/02/12/using-iis-application-request-routing-arr-as-a-tmg-replacement/pic5-2/" rel="attachment wp-att-145"><img class="alignnone wp-image-145 size-full" src="https://i0.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/02/pic5.png?resize=290%2C148&#038;ssl=1" alt="pic5" width="290" height="148" data-recalc-dims="1" /></a>
+<img class="alignnone wp-image-145 size-full" src="https://masteringlync.com/wp-content/uploads/2013/02/pic5.png?resize=290%2C148&#038;ssl=1" alt="pic5" width="290" height="148" data-recalc-dims="1" />
 
 &nbsp;
 
 Enter a name
 
-<a href="http://masteringlync.com/2013/02/12/using-iis-application-request-routing-arr-as-a-tmg-replacement/pic6-2/" rel="attachment wp-att-146"><img class="alignnone wp-image-146 size-full" src="https://i0.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/02/pic6.png?resize=578%2C440&#038;ssl=1" alt="pic6" width="578" height="440" srcset="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic6.png?w=578&ssl=1 578w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic6.png?resize=300%2C228&ssl=1 300w" sizes="(max-width: 578px) 100vw, 578px" data-recalc-dims="1" /></a>
+<img class="alignnone wp-image-146 size-full" src="https://masteringlync.com/wp-content/uploads/2013/02/pic6.png?resize=300%2C228&ssl=1 300w" sizes="(max-width: 578px) 100vw, 578px" data-recalc-dims="1" />
 
 Click Next
 
-<a href="http://masteringlync.com/2013/02/12/using-iis-application-request-routing-arr-as-a-tmg-replacement/pic7/" rel="attachment wp-att-147"><img class="alignnone wp-image-147 size-full" src="https://i2.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/02/pic7.png?resize=579%2C441&#038;ssl=1" alt="pic7" width="579" height="441" srcset="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic7.png?w=579&ssl=1 579w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic7.png?resize=300%2C228&ssl=1 300w" sizes="(max-width: 579px) 100vw, 579px" data-recalc-dims="1" /></a>
+<img class="alignnone wp-image-147 size-full" src="https://masteringlync.com/wp-content/uploads/2013/02/pic7.png?resize=300%2C228&ssl=1 300w" sizes="(max-width: 579px) 100vw, 579px" data-recalc-dims="1" />
 
 Enter the server IP address.  Click on advanced settings and change httpPort to 8080 and httpsPort to 4443.  If you are going to use the load balancing feature, add all of your front-end servers in the pool.  If you have a HLB, than this server IP should be going to your HLB.
 
-<a href="http://masteringlync.com/2013/02/12/using-iis-application-request-routing-arr-as-a-tmg-replacement/pic8/" rel="attachment wp-att-148"><img class="alignnone wp-image-148 size-full" src="https://i0.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/02/pic8.png?resize=415%2C162&#038;ssl=1" alt="pic8" width="415" height="162" srcset="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic8.png?w=415&ssl=1 415w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic8.png?resize=300%2C117&ssl=1 300w" sizes="(max-width: 415px) 100vw, 415px" data-recalc-dims="1" /></a>
+<img class="alignnone wp-image-148 size-full" src="https://masteringlync.com/wp-content/uploads/2013/02/pic8.png?resize=300%2C117&ssl=1 300w" sizes="(max-width: 415px) 100vw, 415px" data-recalc-dims="1" />
 
 &nbsp;
 
 You will get this message.  Click the Yes button to create a default rules.
 
-<a href="http://masteringlync.com/2013/02/12/using-iis-application-request-routing-arr-as-a-tmg-replacement/pic9/" rel="attachment wp-att-149"><img class="alignnone wp-image-149 size-full" src="https://i0.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/02/pic9.png?resize=786%2C111&#038;ssl=1" alt="pic9" width="786" height="111" srcset="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic9.png?w=786&ssl=1 786w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic9.png?resize=300%2C42&ssl=1 300w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic9.png?resize=768%2C108&ssl=1 768w" sizes="(max-width: 786px) 100vw, 786px" data-recalc-dims="1" /></a>
+<img class="alignnone wp-image-149 size-full" src="https://masteringlync.com/wp-content/uploads/2013/02/pic9.png?resize=768%2C108&ssl=1 768w" sizes="(max-width: 786px) 100vw, 786px" data-recalc-dims="1" />
 
 Now you should see your new server farm.  Click on the Lync farm you just created and find **Routing Rules**.  Double click on it and disable **SSL Offloading**. There is no reason to offload on the ARR box as far as I can figure out.  If someone has a good reason to leave it on let me know.
 
-<a href="http://masteringlync.com/2013/02/12/using-iis-application-request-routing-arr-as-a-tmg-replacement/pic10/" rel="attachment wp-att-150"><img class="alignnone wp-image-150 size-full" src="https://i2.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/02/pic10.png?resize=373%2C283&#038;ssl=1" alt="pic10" width="373" height="283" srcset="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic10.png?w=373&ssl=1 373w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic10.png?resize=300%2C228&ssl=1 300w" sizes="(max-width: 373px) 100vw, 373px" data-recalc-dims="1" /></a>
+<img class="alignnone wp-image-150 size-full" src="https://masteringlync.com/wp-content/uploads/2013/02/pic10.png?resize=300%2C228&ssl=1 300w" sizes="(max-width: 373px) 100vw, 373px" data-recalc-dims="1" />
 
 Make sure to click **Apply** in the Action pane on the right when you are making changes in IIS.
 
@@ -92,7 +92,7 @@ Now it&#8217;s time to get to the meat and potatoes of the configuration.  We a
 
 In IIS Manager, click on the Server
 
-<a href="http://masteringlync.com/2013/02/12/using-iis-application-request-routing-arr-as-a-tmg-replacement/pic11/" rel="attachment wp-att-152"><img class="alignnone wp-image-152 size-full" src="https://i2.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/02/pic11.png?resize=297%2C149&#038;ssl=1" alt="pic11" width="297" height="149" data-recalc-dims="1" /></a>
+<img class="alignnone wp-image-152 size-full" src="https://masteringlync.com/wp-content/uploads/2013/02/pic11.png?resize=297%2C149&#038;ssl=1" alt="pic11" width="297" height="149" data-recalc-dims="1" />
 
 &nbsp;
 
@@ -100,13 +100,13 @@ In IIS Manager, click on the Server
 
 When you go into URL Rewrite you will find two default rules created for you.  The first is the SSL rule and the second is the HTTP rule.  Since I don&#8217;t want to use the HTTP rules I am simply disabling them.  You could delete them if you want I suppose as well.
 
-<a href="http://masteringlync.com/2013/02/12/using-iis-application-request-routing-arr-as-a-tmg-replacement/pic12/" rel="attachment wp-att-153"><img class="alignnone wp-image-153 size-full" src="https://i0.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/02/pic12.png?resize=625%2C214&#038;ssl=1" alt="pic12" width="625" height="214" srcset="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic12.png?w=625&ssl=1 625w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic12.png?resize=300%2C103&ssl=1 300w" sizes="(max-width: 625px) 100vw, 625px" data-recalc-dims="1" /></a>
+<img class="alignnone wp-image-153 size-full" src="https://masteringlync.com/wp-content/uploads/2013/02/pic12.png?resize=300%2C103&ssl=1 300w" sizes="(max-width: 625px) 100vw, 625px" data-recalc-dims="1" />
 
 &nbsp;
 
 Double click the ARR\_Lync\_Loadbalance_SSL rule and let&#8217;s understand what you see here:
 
-<a href="http://masteringlync.com/2013/02/12/using-iis-application-request-routing-arr-as-a-tmg-replacement/pic13/" rel="attachment wp-att-154"><img class="alignnone wp-image-154 size-full" src="https://i2.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/02/pic13.png?resize=591%2C437&#038;ssl=1" alt="pic13" width="591" height="437" srcset="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic13.png?w=591&ssl=1 591w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic13.png?resize=300%2C222&ssl=1 300w" sizes="(max-width: 591px) 100vw, 591px" data-recalc-dims="1" /></a>
+<img class="alignnone wp-image-154 size-full" src="https://masteringlync.com/wp-content/uploads/2013/02/pic13.png?resize=300%2C222&ssl=1 300w" sizes="(max-width: 591px) 100vw, 591px" data-recalc-dims="1" />
 
 &nbsp;
 
@@ -114,7 +114,7 @@ In the Match URL is basically what we are going to make after the / in the URL. 
 
 The Conditions is a set of inputs that are required to match this rule.  Here we will we have HTTPS which basically means we must match SSL requests only.
 
-<a href="http://masteringlync.com/2013/02/12/using-iis-application-request-routing-arr-as-a-tmg-replacement/pic14/" rel="attachment wp-att-155"><img class="alignnone wp-image-155 size-full" src="https://i1.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/02/pic14.png?resize=586%2C274&#038;ssl=1" alt="pic14" width="586" height="274" srcset="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic14.png?w=586&ssl=1 586w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic14.png?resize=300%2C140&ssl=1 300w" sizes="(max-width: 586px) 100vw, 586px" data-recalc-dims="1" /></a>
+<img class="alignnone wp-image-155 size-full" src="https://masteringlync.com/wp-content/uploads/2013/02/pic14.png?resize=300%2C140&ssl=1 300w" sizes="(max-width: 586px) 100vw, 586px" data-recalc-dims="1" />
 
 &nbsp;
 
@@ -126,7 +126,7 @@ Here you have some options based on how you do your simple URLs.  If you do &#8
 
 https://meet.domain.com and https://dialin.domain.com then you would need to use the below rule.
 
-<a href="http://masteringlync.com/2013/02/12/using-iis-application-request-routing-arr-as-a-tmg-replacement/pic1-3/" rel="attachment wp-att-168"><img class="alignnone wp-image-168 size-full" src="https://i2.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/02/pic19.png?resize=598%2C390&#038;ssl=1" alt="pic1" width="598" height="390" srcset="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic19.png?w=598&ssl=1 598w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic19.png?resize=300%2C196&ssl=1 300w" sizes="(max-width: 598px) 100vw, 598px" data-recalc-dims="1" /></a>
+<img class="alignnone wp-image-168 size-full" src="https://masteringlync.com/wp-content/uploads/2013/02/pic19.png?resize=300%2C196&ssl=1 300w" sizes="(max-width: 598px) 100vw, 598px" data-recalc-dims="1" />
 
 Change Using to: Regular Expression
 
@@ -136,7 +136,7 @@ If you use Option B where your simple URLs might look like this:
 
 https://meet.domain.com/ID/ and https://meet.domain.com/dialin/ your rule would look like this.
 
-<a href="http://masteringlync.com/2013/02/12/using-iis-application-request-routing-arr-as-a-tmg-replacement/pic2-3/" rel="attachment wp-att-169"><img class="alignnone wp-image-169 size-full" src="https://i2.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/02/pic21.png?resize=595%2C440&#038;ssl=1" alt="pic2" width="595" height="440" srcset="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic21.png?w=595&ssl=1 595w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic21.png?resize=300%2C222&ssl=1 300w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" /></a>
+<img class="alignnone wp-image-169 size-full" src="https://masteringlync.com/wp-content/uploads/2013/02/pic21.png?resize=300%2C222&ssl=1 300w" sizes="(max-width: 595px) 100vw, 595px" data-recalc-dims="1" />
 
 ((?:^dialin|^id|^Abs|^autodiscover|^CertProv|^CollabContent|^Fonts|^GroupExpansion|^HybridConfig|^lwa|^mcx|^PassiveAuth|^PersistentChat|^Reach|^RequestHandlerExt|^RgsClients|^Scheduler|^Storage|^ucwa|^WebTicket).*)
 
@@ -152,7 +152,7 @@ Add to Conditions: {HTTP_HOST} on the pattern of (externalwebservices.domain.com
 
 Now we create a rule for Lync Discover services.  Here is what I have created.  This rule is created as brand new and not one of the existing rules.
 
-<a href="http://masteringlync.com/2013/02/12/using-iis-application-request-routing-arr-as-a-tmg-replacement/pic16/" rel="attachment wp-att-157"><img class="alignnone wp-image-157 size-full" src="https://i0.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/02/pic16.png?resize=590%2C438&#038;ssl=1" alt="pic16" width="590" height="438" srcset="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic16.png?w=590&ssl=1 590w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic16.png?resize=300%2C223&ssl=1 300w" sizes="(max-width: 590px) 100vw, 590px" data-recalc-dims="1" /></a>
+<img class="alignnone wp-image-157 size-full" src="https://masteringlync.com/wp-content/uploads/2013/02/pic16.png?resize=300%2C223&ssl=1 300w" sizes="(max-width: 590px) 100vw, 590px" data-recalc-dims="1" />
 
 &nbsp;
 
@@ -162,13 +162,13 @@ Here I am defining my pattern match as any request (.*) anything from lyncdiscov
 
 If you created your web server farm for OWAS you should have your default rules again.  So if I look at that rule:
 
-<a href="http://masteringlync.com/2013/02/12/using-iis-application-request-routing-arr-as-a-tmg-replacement/pic17/" rel="attachment wp-att-158"><img class="alignnone wp-image-158 size-full" src="https://i1.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/02/pic17.png?resize=591%2C428&#038;ssl=1" alt="pic17" width="591" height="428" srcset="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic17.png?w=591&ssl=1 591w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic17.png?resize=300%2C217&ssl=1 300w" sizes="(max-width: 591px) 100vw, 591px" data-recalc-dims="1" /></a>
+<img class="alignnone wp-image-158 size-full" src="https://masteringlync.com/wp-content/uploads/2013/02/pic17.png?resize=300%2C217&ssl=1 300w" sizes="(max-width: 591px) 100vw, 591px" data-recalc-dims="1" />
 
 &nbsp;
 
 This rule again is pretty straight forward.  We are matching anything intended to go to owas.domain.com.  The big difference is under Action, our Server Farm is now OWAS and not Lync.  You can do the same thing with Exchange or other services as well.  Here is my completed configuration:
 
-<a href="http://masteringlync.com/2013/02/12/using-iis-application-request-routing-arr-as-a-tmg-replacement/pic18/" rel="attachment wp-att-159"><img class="alignnone wp-image-159 size-full" src="https://i2.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/02/pic18.png?resize=712%2C162&#038;ssl=1" alt="pic18" width="712" height="162" srcset="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic18.png?w=712&ssl=1 712w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/pic18.png?resize=300%2C68&ssl=1 300w" sizes="(max-width: 712px) 100vw, 712px" data-recalc-dims="1" /></a>
+<img class="alignnone wp-image-159 size-full" src="https://masteringlync.com/wp-content/uploads/2013/02/pic18.png?resize=300%2C68&ssl=1 300w" sizes="(max-width: 712px) 100vw, 712px" data-recalc-dims="1" />
 
 &nbsp;
 
@@ -201,6 +201,6 @@ I found that you will want to adjust the timeout on the IIS or you will see some
 
 &nbsp;
 
-<a href="http://masteringlync.com/2013/02/12/using-iis-application-request-routing-arr-as-a-tmg-replacement/picture/" rel="attachment wp-att-199"><img class="alignnone wp-image-199 size-medium" src="https://i0.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2013/02/Picture-278x300.jpg?resize=278%2C300&#038;ssl=1" alt="Picture" width="278" height="300" srcset="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/Picture.jpg?resize=278%2C300&ssl=1 278w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/Picture.jpg?resize=768%2C829&ssl=1 768w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2013/02/Picture.jpg?w=814&ssl=1 814w" sizes="(max-width: 278px) 100vw, 278px" data-recalc-dims="1" /></a>
+<img class="alignnone wp-image-199 size-medium" src="https://masteringlync.com/wp-content/uploads/2013/02/Picture.jpg?w=814&ssl=1 814w" sizes="(max-width: 278px) 100vw, 278px" data-recalc-dims="1" />
 
 &nbsp;
