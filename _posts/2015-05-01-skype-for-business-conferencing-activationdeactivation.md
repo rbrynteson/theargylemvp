@@ -91,7 +91,7 @@ We see that meetings expire 365 days (one year) after the last activation (i.e. 
 
 Additionally, we can control the expiration time of meetings using the set-csconferencingconfiguration cmdlet.  You can see here:
 
-[<img class="alignnone size-full wp-image-1149" src="https://i2.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2015/05/1.png?resize=502%2C404&#038;ssl=1" alt="1" width="502" height="404" srcset="https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2015/05/1.png?w=502&ssl=1 502w, https://i1.wp.com/masteringlync.com/wp-content/uploads/sites/2/2015/05/1.png?resize=300%2C241&ssl=1 300w" sizes="(max-width: 502px) 100vw, 502px" data-recalc-dims="1" />](https://i2.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2015/05/1.png)
+<img class="alignnone size-full wp-image-1149" src="https://masteringlync.com/wp-content/uploads/sites/2/2015/05/1.png?resize=300%2C241&ssl=1 300w" sizes="(max-width: 502px) 100vw, 502px" data-recalc-dims="1" />
 
 NOTE: Remember that 15:00:00 means one second beyond 14 days, 23 hours, 59 minutes, 59 second.  So when we say 14 days, we mean 14 full days.  I’ve seen organizations get caught up on this where there are strict retention periods and they set it wrong.
 
@@ -103,7 +103,7 @@ This part is pretty simple.  A conference is activated when someone joins it. 
 
 All of this information can be found in the database as well.  As soon as a conference is activated, that information is placed into the RTCLocal | RTCDYN | ActiveConference database.  In my screen shot below, you can see that we have five active conferences.
 
-[<img class="alignnone size-full wp-image-1150" src="https://i1.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2015/05/2.png?resize=697%2C118&#038;ssl=1" alt="2" width="697" height="118" srcset="https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2015/05/2.png?w=697&ssl=1 697w, https://i0.wp.com/masteringlync.com/wp-content/uploads/sites/2/2015/05/2.png?resize=300%2C51&ssl=1 300w" sizes="(max-width: 697px) 100vw, 697px" data-recalc-dims="1" />](https://i1.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2015/05/2.png)
+<img class="alignnone size-full wp-image-1150" src="https://masteringlync.com/wp-content/wp-content/uploads/sites/2/2015/05/2.png?resize=300%2C51&ssl=1 300w" sizes="(max-width: 697px) 100vw, 697px" data-recalc-dims="1" />
 
 Each column has a very specific purpose.  Here is a quick run down of each column.
 
@@ -133,7 +133,7 @@ The moral of this section is.  Once a meeting is joined, than we create an inst
 **Conferencing Server Factory** determines the availability and health of the Conferencing Servers in the environment.  During the meeting creation process, it’s responsible for telling the Focus which servers to place which modalities on.  
 Here is a great picture buried on one slide that was on the screen for about 7 seconds at Lync Conf 13.
 
-[<img class="alignnone size-full wp-image-1151" src="https://i0.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2015/05/3.png?resize=704%2C560&#038;ssl=1" alt="3" width="704" height="560" srcset="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2015/05/3.png?w=704&ssl=1 704w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2015/05/3.png?resize=300%2C239&ssl=1 300w" sizes="(max-width: 704px) 100vw, 704px" data-recalc-dims="1" />](https://i0.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2015/05/3.png)
+<img class="alignnone size-full wp-image-1151" src="https://masteringlync.com/wp-content/uploads/sites/2/2015/05/3.png?resize=300%2C239&ssl=1 300w" sizes="(max-width: 704px) 100vw, 704px" data-recalc-dims="1" />
 
 Here we can see how the communication is done between each of the different elements that goes into creating a conference.
 
@@ -147,7 +147,7 @@ The deactivation of a conference has nothing to do with the expire time we spoke
 
 This is most likely a rarely used feature as it’s buried under the three dots (more menu) but from here is an option to End Meeting.
 
-[<img class="alignnone size-full wp-image-1153" src="https://i2.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2015/05/5.png?resize=206%2C290&#038;ssl=1" alt="5" width="206" height="290" data-recalc-dims="1" />](https://i2.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2015/05/5.png)
+<img class="alignnone size-full wp-image-1153" src="https://masteringlync.com/wp-content/uploads/sites/2/2015/05/5.png?resize=206%2C290&#038;ssl=1" alt="5" width="206" height="290" data-recalc-dims="1" />
 
 When this is done all users are immediately disconnected from the conference.  In the back ground, the client is sending an Exit and End Conference command to the Focus and it terminates all active Conference Servers and disconnects all users.
 
@@ -173,7 +173,7 @@ I often refer to this as the fantasy football draft rule.  You may recall in ou
 
 If we look at the SIP Message that is sent at the 90 minute mark, we can clearly see that the Focus is sending a BYE request to the conferencing announcement service (CAS).
 
-[<img class="alignnone size-full wp-image-1152" src="https://i2.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2015/05/4.png?resize=775%2C229&#038;ssl=1" alt="4" width="775" height="229" srcset="https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2015/05/4.png?w=775&ssl=1 775w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2015/05/4.png?resize=300%2C89&ssl=1 300w, https://i2.wp.com/masteringlync.com/wp-content/uploads/sites/2/2015/05/4.png?resize=768%2C227&ssl=1 768w" sizes="(max-width: 775px) 100vw, 775px" data-recalc-dims="1" />](https://i2.wp.com/masteringlync.gcmtotalsolutions.com/wp-content/uploads/sites/2/2015/05/4.png)
+<img class="alignnone size-full wp-image-1152" src="https://masteringlync.com/wp-content/uploads/sites/2/2015/05/4.png?resize=768%2C227&ssl=1 768w" sizes="(max-width: 775px) 100vw, 775px" data-recalc-dims="1" />
 
 <span style="text-decoration: underline">24 Hour – No Join Rule</span>
 
