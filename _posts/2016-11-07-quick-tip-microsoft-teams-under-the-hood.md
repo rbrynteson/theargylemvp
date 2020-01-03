@@ -33,11 +33,11 @@ So let&#8217;s look at each modality.
 
 If we send a message we see two different JSON events.  First, we see a typing command to update the team so they know I&#8217;m in the processing of replying.
 
-<img class="alignnone size-full wp-image-1347" src="https://masteringlync.com/wp-content/uploads/sites/2/2016/11/2-3.png?resize=212%2C76&#038;ssl=1" alt="2" width="212" height="76" data-recalc-dims="1" />
+<img class="alignnone size-full wp-image-1347" src="https://masteringlync.com/wp-content/uploads/2016/11/2-3.png?resize=212%2C76&#038;ssl=1" alt="2" width="212" height="76" data-recalc-dims="1" />
 
 Then when the message is actually sent we see this JSON message.
 
-<img class="alignnone wp-image-1346 size-full" src="https://masteringlync.com/wp-content/uploads/sites/2/2016/11/1-3.png?resize=300%2C117&ssl=1 300w" sizes="(max-width: 325px) 100vw, 325px" data-recalc-dims="1" />
+<img class="alignnone wp-image-1346 size-full" src="https://masteringlync.com/wp-content/uploads/2016/11/1-3.png?resize=300%2C117&ssl=1 300w" sizes="(max-width: 325px) 100vw, 325px" data-recalc-dims="1" />
 
 So there are a few items of note that we should discuss at this time:
 
@@ -48,11 +48,11 @@ So there are a few items of note that we should discuss at this time:
 
 When you join an Audio/Video session we can see a very similar JSON setup experience.  First, here is sent to the Teams Server.  Some interesting URLs.
 
-<img class="alignnone wp-image-1349" src="https://masteringlync.com/wp-content/uploads/sites/2/2016/11/3-3.png?resize=600%2C194&#038;ssl=1" alt="3" width="600" height="194" data-recalc-dims="1" />
+<img class="alignnone wp-image-1349" src="https://masteringlync.com/wp-content/uploads/2016/11/3-3.png?resize=600%2C194&#038;ssl=1" alt="3" width="600" height="194" data-recalc-dims="1" />
 
 And here is the response:
 
-<img class="alignnone wp-image-1353 size-full" src="https://masteringlync.com/wp-content/uploads/sites/2/2016/11/1-4.png?resize=456%2C227&#038;ssl=1" alt="1" width="456" height="227" data-recalc-dims="1" />
+<img class="alignnone wp-image-1353 size-full" src="https://masteringlync.com/wp-content/uploads/2016/11/1-4.png?resize=456%2C227&#038;ssl=1" alt="1" width="456" height="227" data-recalc-dims="1" />
 
 Again, we see the full URL here: https://api.conv.skype.com/conv/
 
