@@ -163,3 +163,9 @@ In the above:
 - -t is where the template folder is
 
 The template is completely optional.  But that is it.  The ApiDoc tool will parse all your .cs files, find the API Documentation tags and create your docs for you.
+
+What is great is because you have defined both a sampleUrl in your .json document and specified the URL in the documention, this will create a tool where users can enter these values and test what the input and output against your API is.
+
+<img src="https://theargylemvp.com/assets/images/1.20.2020.pic2.png" width="850" />
+
+Hopefully this is helpful in your documentation of Web APIs.
