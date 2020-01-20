@@ -1,6 +1,6 @@
 ---
 title: Using API Doc for your Web API's
-date: 2020-01-14:13:39+00:00
+date: 2020-01-20T13:11:39+00:00
 author: Richard Brynteson
 layout: post
 permalink: /2020/01/20/using-apidoc-for-webapi/
