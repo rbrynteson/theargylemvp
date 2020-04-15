@@ -10,7 +10,52 @@ categories:
   - Development
 ---
 
-As we all get ready to write more code in 2020 we really need to think about ways to automate the code documentation process.  Even if the project is just being used by yourself, getting into the habit of writing solid documentation is a plus for long term sanity.
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://theargylemvp.com/2020/01/20/using-apidoc-for-webapi/"
+    },
+    "headline": "",
+    "alternativeHeadline": "Using API Doc for your Web API's",
+    "url": "https://theargylemvp.com/2020/01/20/using-apidoc-for-webapi/",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://theargylemvp.com/assets/images/1.20.2020.pic1.png",
+        "width": {
+            {
+                image.width
+            }
+        },
+        "height": {
+            {
+                image.height
+            }
+        }
+    },
+    "datePublished": "Mon Jan 20 2020",
+    "dateModified": "",
+    "description": "Ensuring proper documenation using apidoc is critical for team and project success.  Learn how to deploy and use apidoc for your Web API documentation.",
+    "author": {
+        "@type": "Person",
+        "name": "Richard Brynteson"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "TheArgyleMVP",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://love2dev.com/img/love2dev-light-logo-75x409.gif",
+            "width": 409,
+            "height": 75
+        }
+    }
+}
+</script>
+
+2020 is the year of writing code.  Writing the code is only the first step.  Documentation of your new code is critical.  Regardless if the project is for you or a team documentation is a must.
 
 ## What Is Good API Documentation
 
@@ -57,7 +102,7 @@ public IEnumerable<User> Users(string APIKey, string TenantID)
 }
 ```
 
-As you can see above, we have a GET command that expected two parameters APIKey and TenantID that are passed in the URL.  Looking at the [apiDocs](https://apidocjs.com/) Getting Started guide it's not straight forward what to do next.  Their getting started guide they tell you to run the tool via the command line.  But you haven't defined any documentation yet so you will get nothing in return.  So our first step is to update our API with the documentation keywords.
+As seen above, we have a GET command that expected two parameters APIKey and TenantID passed in the URL.  The [Getting Started](https://apidocjs.com/) lacks some of the basic steps to complete your task.  It starts by instructing you to run a tool via the command line.  But you haven't defined any documentation yet so you will get nothing in return.  So our first step is to update our API with the documentation keywords.
 
 ```c#
 [Route("Users/{APIKey}/{TenantID}")]
