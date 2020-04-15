@@ -15,12 +15,12 @@ css: ['index.css', 'sidebar-popular-repo.css']
             {% if site.company %}
             <span class="meta-info hvr-grow">
                 <span class="octicon octicon-organization"></span>
-                <a href="{{ site.company_url }}" target="_blank">{{ site.company }}</a>
+                <a href="{{ site.company_url }}" target="_blank" rel="noopener noreferrer">{{ site.company }}</a>
             </span> {% endif %}
             {% if site.github_username %}
             <span class="meta-info hvr-grow">
                 <span class="octicon octicon-mark-github"></span>
-                <a href="{{ site.github_url }}" target="_blank">@{{ site.github_username }}</a>
+                <a href="{{ site.github_url }}" target="_blank" rel="noopener noreferrer">@{{ site.github_username }}</a>
             </span> {% endif %}
         </div>
     </div>
