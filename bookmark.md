@@ -35,6 +35,10 @@ menu: Bookmark
 - [YouTube](https://www.youtube.com/watch?v=UtIOMUQ7nWM) - ReactJS Basics (Two Hour Video)
 - [UDemy](https://www.udemy.com/react-the-complete-guide-incl-redux/?couponCode=REACT_COMPLETE_UYT) -  Amazing class on ReachJS
 
+## ReactJS + MSAL
+- [Because Developers are Awesome](https://adrianhall.github.io/javascript/react/2020/03/06/msal-react-redux/)
+- [React Auth with MSAL.js](https://medium.com/praval-jain/react-app-authentication-with-msal-js-a5b09b7ceb4e)
+
 ## Books
 - [GitHub Cheat Sheet](https://github.com/tiimgreen/github-cheat-sheet) - GitHub Practical Tips
 - [Git Quick Reference](http://jonas.nitro.dk/git/quick-reference.html) - Git Quick Reference
@@ -44,3 +48,4 @@ menu: Bookmark
 - [SEO Tips](https://love2dev.com/seo/seo-tips)
 - [Better Writing](http://www.hemingwayapp.com/)
 - [Webhint Scanner](https://webhint.io/scanner/)
+- [Structed Data Testing Tool](https://search.google.com/structured-data/testing-tool)
