@@ -9,7 +9,6 @@ categories:
   - Skype for Business
   - Development
 ---
-
 <script type="application/ld+json">
 {
     "@context": "https://schema.org",
@@ -18,25 +17,15 @@ categories:
         "@type": "WebPage",
         "@id": "https://theargylemvp.com/2020/01/20/using-apidoc-for-webapi/"
     },
-    "headline": "",
+    "headline": "Using API Doc for your Web API's",
     "alternativeHeadline": "Using API Doc for your Web API's",
     "url": "https://theargylemvp.com/2020/01/20/using-apidoc-for-webapi/",
     "image": {
-        "@type": "ImageObject",
-        "url": "https://theargylemvp.com/assets/images/1.20.2020.pic1.png",
-        "width": {
-            {
-                image.width
-            }
+            "@type": "ImageObject",
+            "url": "https://theargylemvp.com/assets/images/1.20.2020.pic1.png" 
         },
-        "height": {
-            {
-                image.height
-            }
-        }
-    },
     "datePublished": "Mon Jan 20 2020",
-    "dateModified": "",
+    "dateModified": "Mon Jan 20 2020",
     "description": "Ensuring proper documenation using apidoc is critical for team and project success.  Learn how to deploy and use apidoc for your Web API documentation.",
     "author": {
         "@type": "Person",
