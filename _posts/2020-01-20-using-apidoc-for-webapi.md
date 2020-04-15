@@ -43,40 +43,6 @@ categories:
     }
 }
 </script>
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://theargylemvp.com/2020/01/20/using-apidoc-for-webapi/"
-    },
-    "headline": "Using API Doc for your Web API's",
-    "alternativeHeadline": "Using API Doc for your Web API's",
-    "url": "https://theargylemvp.com/2020/01/20/using-apidoc-for-webapi/",
-    "image": {
-            "@type": "ImageObject",
-            "url": "https://theargylemvp.com/assets/images/1.20.2020.pic1.png" 
-        },
-    "datePublished": "Mon Jan 20 2020",
-    "dateModified": "Mon Jan 20 2020",
-    "description": "Ensuring proper documenation using apidoc is critical for team and project success.  Learn how to deploy and use apidoc for your Web API documentation.",
-    "author": {
-        "@type": "Person",
-        "name": "Richard Brynteson"
-    },
-    "publisher": {
-        "@type": "Organization",
-        "name": "TheArgyleMVP",
-        "logo": {
-            "@type": "ImageObject",
-            "url": "https://theargylemvp.com/assets/images/TheArgyleMVPLogo.png",
-            "width": 720,
-            "height": 120
-        }
-    }
-}
-</script>
 
 2020 is the year of writing code.  Writing the code is only the first step.  Documentation of your new code is critical.  Regardless if the project is for you or a team documentation is a must.
 
