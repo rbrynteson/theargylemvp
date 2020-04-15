@@ -36,9 +36,9 @@ categories:
         "name": "TheArgyleMVP",
         "logo": {
             "@type": "ImageObject",
-            "url": "https://love2dev.com/img/love2dev-light-logo-75x409.gif",
-            "width": 409,
-            "height": 75
+            "url": "https://theargylemvp.com/assets/images/TheArgyleMVPLogo.png",
+            "width": 720,
+            "height": 120
         }
     }
 }
