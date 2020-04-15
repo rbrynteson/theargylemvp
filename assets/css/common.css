@@ -106,6 +106,10 @@
 .jumbotron #jumbotron-meta-info {
     margin-top: 20px;
 }
+.jumbotron a:hover {
+    color: #2e2e2e;
+    text-decoration: underline;
+}
 
 .jumbotron .meta-info {
     font-size: 20px;
