@@ -26,7 +26,7 @@ When I work with customers, I often hear a few common complaints:
 
 It is entirely possible that Microsoft could collapse the side menu for all apps.  Would this make it easier to find applications and information or make things even more confusing?  I have no inside information that they are going to do this, and this is 100% speculation.
 
-<img src="https://theargylemvp.com/assets/images/7.6.2020.pic.2.png" width="650" />
+<img src="https://theargylemvp.com/assets/images/07-06-2020-ui_2.png" width="650" />
 
 This has some advantages of a layout because it collapses several applications into a single place and makes it easy to find the tools.  But it might increase the complaints about it being too busy.
 
@@ -34,7 +34,7 @@ This has some advantages of a layout because it collapses several applications i
 
 The number one complain I hear from customers repeatedly is that stuff is buried everywhere.  And not only are items buried, but the SAME data is hiding under various locations.  Here is a great example:
 
-<img src="https://theargylemvp.com/assets/images/7.6.2020.pic.3.png" width="650" />
+<img src="https://theargylemvp.com/assets/images/07-06-2020-ui_3.png" width="650" />
 
 On the left side you will see the options you get when you click on the three dots (more menu) from the main navigation page.  Then in the upper right corner, there is another more menu and it has the same options – except this one has the Open SharePoint Option.
 
