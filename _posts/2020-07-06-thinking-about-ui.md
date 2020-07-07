@@ -38,5 +38,4 @@ The number one complain I hear from customers repeatedly is that stuff is buried
 
 On the left side you will see the options you get when you click on the three dots (more menu) from the main navigation page.  Then in the upper right corner, there is another more menu and it has the same options – except this one has the Open SharePoint Option.
 
-And this is just one spot where we have redundant options.  And although Microsoft has a long history of redundant right-click menus *looking at you Windows* it’s time to reduce the complexity.
-
+And this is just one spot where we have redundant options.  And although Microsoft has a long history of redundant right-click menus *looking at you Windows* it’s time to reduce the complexity.  Where else could Microsoft reduce the clutter?
