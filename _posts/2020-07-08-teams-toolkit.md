@@ -1,6 +1,6 @@
 ---
 title: Taking a Spin With the Teams Toolkit
-date: 2020-03-13T13:11:39+00:00
+date: 2020-07-08T10:55:39+00:00
 author: Richard Brynteson
 layout: post
 permalink: /2020/07/08/teams-toolkit/

@@ -1,6 +1,6 @@
 ---
 title: Thinking About UI
-date: 2020-03-13T13:11:39+00:00
+date: 2020-07-06T13:11:39+00:00
 author: Richard Brynteson
 layout: post
 permalink: /2020/07/06/thinking-about-ui/
