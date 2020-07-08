@@ -13,13 +13,13 @@ At Microsoft Build 2020, the Teams Development team announced the preview versio
 
 ## My Project
 
-This should be a very easy project.  I have a project currently in process that spans multiple GitHub repositories.  We do all of issue tracking via GitHub.  For every project that has a user experience tied to it, we build in a very simple "feedback" form so user (internal, external, whomever) can project us with feature requests, bugs or whatever other thoughts they have.  Our project management team has asked to be able to see all of the GitHub issues but they don't want to have to browse to all of these repositories.  So using the Octokit.NET we built a REST endpoint that we can pass any number of repository names and it will return all of the issues that are open across all the collection.
+This should be a very easy project.  I have a project currently in process that spans multiple GitHub repositories.  We do all of issue tracking via GitHub.  For every project that has a user experience tied to it, we build in a very simple "feedback" form so users (internal, external, whomever) can provide us with feature requests, bugs or whatever other thoughts they have.  Our project management team has asked to be able to see all of the GitHub issues but they don't want to have to browse to all of these repositories.  So using the Octokit.NET we built a REST endpoint that we can pass any number of repository names and it will return all of the issues that are open across all the collection.
 
 So I want to build a channel tab that I can put inside the project so the project management team can see all the open issues in a single spot.
 
 ## Setup
 
-To use the new Teams Toolkit, all you need to do is install it in Visual Studio Code.  The team announced at Build that a similar tool was coming for Visual Studio.  Head over to extensions in Visual Studio Code, search for Teams Toolkit and there you go.
+To use the new Teams Toolkit, all you need to do is install it in Visual Studio Code.  Head over to extensions in Visual Studio Code, search for Teams Toolkit and there you go.
 
 <img src="https://theargylemvp.com/assets/images/07.08.2020.1.png" width="650" />
 
@@ -45,13 +45,13 @@ At this point in time, I'm finished.  It's all setup and I'm ready to go.  You w
 
 So our first step is to run:
 
->>npm install
+>npm install
 
 <img src="https://theargylemvp.com/assets/images/07.08.2020.7.png" width="650" />
 
 This is going to take a bit of time as it downloads all of the necessary items for your project.  Remember, this isn't just about creating the Manifest, but instead we are going to create everything needed for this project including the website files and more.  Once npm install is done, run:
 
->>npm start
+>npm start
 
 <img src="https://theargylemvp.com/assets/images/07.08.2020.8.png" />
 
@@ -62,22 +62,15 @@ Now that you have started your application you can open it in the browser.  When
 Remember, the read me tells you need to accept the local cert.  Yes, you could use the Advanced Button and simply "continue" for the browser but this won't work then for Teams.  So you need to actually install the cert.  That process is thankfully pretty easy.  I'm using Edge 85 for this.  Same instructions work for any version of Chrome as well.
 
 1. Open the Chrome Developer Tools window F12 or you can use (ctrl + shift + i)
-2. Go to the Security tab
+2. Go to the Security tab <img src="https://theargylemvp.com/assets/images/07.08.2020.13.png" width="650" />
 3. Click on View Certificate.  Click on the Details tab and choose "Copy to File".  This is going to walk you through a wizard, you can hit next-next-next through the entire wizard.  At the end, you will be asked to name the certificate.  Save it somewhere you will know.
-
-<img src="https://theargylemvp.com/assets/images/07.08.2020.13.png" width="650" />
-
 <img src="https://theargylemvp.com/assets/images/07.08.2020.10.png" />
 
 Now we need to install this into your computer.
 
-1. Go to where you have the cert, right-click and choose Install Certificate.
-2. Choose Local Machine.  It will then ask where you want to store the certificate, pick Trusted Root Certificate Authorities.
+1. Go to where you have the cert, right-click and choose Install Certificate.  <img src="https://theargylemvp.com/assets/images/07.08.2020.11.png" />
+2. Choose Local Machine.  It will then ask where you want to store the certificate, pick Trusted Root Certificate Authorities.   <img src="https://theargylemvp.com/assets/images/07.08.2020.12.png" />
 3. You can now click next-next-next and finish.  It should tell you the certificate was imported successfully.
-
-<img src="https://theargylemvp.com/assets/images/07.08.2020.11.png" />
-
-<img src="https://theargylemvp.com/assets/images/07.08.2020.12.png" />
 
 Now you can try to go back to your webpage.  However, you will most likely notice that you are still getting a certificate error.  Why?  Because the address in Code tells you to go to https://10.0.3.209:3000/.  But 10.0.3.209 is my IP Address and that will NEVER be on a certificate.  Change it to https://localhost:3000/.  The error will be gone.
 
@@ -112,6 +105,8 @@ When I hit update, I got a message about a mismatch between my App Config and my
 Now you can hit the Update button.  We now want to side-load this into our Teams client.  To accomplish that, we need to browse to the location of our project.  When we hit the Update button, under the hood the a development.zip file has been created in the .publish folder.
 
 <img src="https://theargylemvp.com/assets/images/07.08.2020.20.png" />
+
+IMPORTANT!  This development.zip file is your local copy of your configuration.  If you delete it, then you just deleted your App Manifest.  Don't do that!
 
 We go back to our Teams client and click on the Apps in the lower left corner.  Choose Upload a Custom App and browser to the folder where the development.zip file is located.  And click Add to a team 
 
