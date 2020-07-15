@@ -8,6 +8,36 @@ categories:
   - Microsoft Teams
   - User Experience
 ---
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://theargylemvp.com/2020/07/06/thinking-about-ui/"
+    },
+    "headline": "Thinking About UI",
+    "alternativeHeadline": "Thinking About UI",
+    "url": "https://theargylemvp.com/2020/07/06/thinking-about-ui/",
+    "datePublished": "Mon Jul 06 2020",
+    "dateModified": "Mon Jul 06 2020",
+    "description": "It's time to rethink the Microsoft Teams user interface.",
+    "author": {
+        "@type": "Person",
+        "name": "Richard Brynteson"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "TheArgyleMVP",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://theargylemvp.com/assets/images/TheArgyleMVPLogo.png",
+            "width": 720,
+            "height": 120
+        }
+    }
+}
+</script>
 
 Microsoft is rolling out a new update to the Office.com website and for those who have been using Microsoft Teams for the past three-plus years you will notice it looks VERY familiar.  If you have not seen the update roll into your productive tenant here is a picture of it.  (I have not seen it land in my production tenant but I am sure it's coming soon.)
 

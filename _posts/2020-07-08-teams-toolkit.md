@@ -8,6 +8,36 @@ categories:
   - Microsoft Teams
   - Development
 ---
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://theargylemvp.com/2020/07/08/teams-toolkit/"
+    },
+    "headline": "Taking a Spin With the Teams Toolkit",
+    "alternativeHeadline": "Taking a Spin With the Teams Toolkit",
+    "url": "https://theargylemvp.com/2020/07/08/teams-toolkit/",
+    "datePublished": "Wed Jul 08 2020",
+    "dateModified": "Wed Jul 08 2020",
+    "description": "We build our first Teams Application using the new Microsoft Teams Toolkit for Visual Studio Code",
+    "author": {
+        "@type": "Person",
+        "name": "Richard Brynteson"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "TheArgyleMVP",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://theargylemvp.com/assets/images/TheArgyleMVPLogo.png",
+            "width": 720,
+            "height": 120
+        }
+    }
+}
+</script>
 
 At Microsoft Build 2020, the Teams Development team announced the preview version of the Teams Toolkit.  I've been fortunate to see this go from napkin stage all the way to general availability.  I thought it would be fun to take it out for a quick test.  You can read all about on [Microsoft Docs](https://docs.microsoft.com/en-us/microsoftteams/platform/toolkit/visual-studio-code-overview).
 
